@@ -1,0 +1,919 @@
+{
+  "image": "IMG_5679_facade.jpg",
+  "size": [
+    1536,
+    655
+  ],
+  "components": {
+    "seal": [
+      {
+        "index": 0,
+        "area_pixels": 7406,
+        "coverage_percent": 0.74,
+        "bbox": [
+          593,
+          570,
+          798,
+          654
+        ],
+        "score": 0.33
+      },
+      {
+        "index": 1,
+        "area_pixels": 2325,
+        "coverage_percent": 0.23,
+        "bbox": [
+          488,
+          509,
+          595,
+          550
+        ],
+        "score": 0.377
+      },
+      {
+        "index": 2,
+        "area_pixels": 57997,
+        "coverage_percent": 5.76,
+        "bbox": [
+          0,
+          149,
+          1497,
+          329
+        ],
+        "score": 0.158
+      },
+      {
+        "index": 3,
+        "area_pixels": 1754,
+        "coverage_percent": 0.17,
+        "bbox": [
+          936,
+          468,
+          1027,
+          533
+        ],
+        "score": 0.205
+      }
+    ],
+    "tin": [
+      {
+        "index": 0,
+        "area_pixels": 55915,
+        "coverage_percent": 5.56,
+        "bbox": [
+          981,
+          176,
+          1513,
+          649
+        ],
+        "score": 0.156
+      },
+      {
+        "index": 1,
+        "area_pixels": 616144,
+        "coverage_percent": 61.24,
+        "bbox": [
+          0,
+          0,
+          1528,
+          649
+        ],
+        "score": 0.166
+      },
+      {
+        "index": 2,
+        "area_pixels": 31828,
+        "coverage_percent": 3.16,
+        "bbox": [
+          980,
+          181,
+          1512,
+          649
+        ],
+        "score": 0.201
+      },
+      {
+        "index": 3,
+        "area_pixels": 28076,
+        "coverage_percent": 2.79,
+        "bbox": [
+          1029,
+          79,
+          1535,
+          143
+        ],
+        "score": 0.242
+      },
+      {
+        "index": 4,
+        "area_pixels": 43195,
+        "coverage_percent": 4.29,
+        "bbox": [
+          0,
+          332,
+          389,
+          562
+        ],
+        "score": 0.199
+      },
+      {
+        "index": 5,
+        "area_pixels": 91245,
+        "coverage_percent": 9.07,
+        "bbox": [
+          120,
+          133,
+          1458,
+          280
+        ],
+        "score": 0.228
+      },
+      {
+        "index": 6,
+        "area_pixels": 82242,
+        "coverage_percent": 8.17,
+        "bbox": [
+          0,
+          140,
+          1501,
+          327
+        ],
+        "score": 0.225
+      },
+      {
+        "index": 7,
+        "area_pixels": 41937,
+        "coverage_percent": 4.17,
+        "bbox": [
+          994,
+          152,
+          1518,
+          469
+        ],
+        "score": 0.21
+      },
+      {
+        "index": 8,
+        "area_pixels": 92786,
+        "coverage_percent": 9.22,
+        "bbox": [
+          0,
+          236,
+          986,
+          567
+        ],
+        "score": 0.188
+      },
+      {
+        "index": 9,
+        "area_pixels": 62923,
+        "coverage_percent": 6.25,
+        "bbox": [
+          0,
+          237,
+          962,
+          628
+        ],
+        "score": 0.168
+      },
+      {
+        "index": 10,
+        "area_pixels": 29433,
+        "coverage_percent": 2.93,
+        "bbox": [
+          1009,
+          283,
+          1443,
+          654
+        ],
+        "score": 0.173
+      },
+      {
+        "index": 11,
+        "area_pixels": 117989,
+        "coverage_percent": 11.73,
+        "bbox": [
+          0,
+          0,
+          1102,
+          159
+        ],
+        "score": 0.221
+      },
+      {
+        "index": 12,
+        "area_pixels": 82090,
+        "coverage_percent": 8.16,
+        "bbox": [
+          0,
+          185,
+          995,
+          434
+        ],
+        "score": 0.157
+      },
+      {
+        "index": 13,
+        "area_pixels": 13928,
+        "coverage_percent": 1.38,
+        "bbox": [
+          1071,
+          453,
+          1268,
+          651
+        ],
+        "score": 0.174
+      },
+      {
+        "index": 14,
+        "area_pixels": 25070,
+        "coverage_percent": 2.49,
+        "bbox": [
+          459,
+          523,
+          741,
+          654
+        ],
+        "score": 0.174
+      }
+    ],
+    "screw": [
+      {
+        "index": 0,
+        "area_pixels": 308,
+        "coverage_percent": 0.03,
+        "bbox": [
+          1453,
+          322,
+          1469,
+          345
+        ],
+        "score": 0.155
+      },
+      {
+        "index": 1,
+        "area_pixels": 224,
+        "coverage_percent": 0.02,
+        "bbox": [
+          1339,
+          474,
+          1357,
+          488
+        ],
+        "score": 0.336
+      },
+      {
+        "index": 2,
+        "area_pixels": 120,
+        "coverage_percent": 0.01,
+        "bbox": [
+          0,
+          498,
+          18,
+          506
+        ],
+        "score": 0.188
+      },
+      {
+        "index": 3,
+        "area_pixels": 150,
+        "coverage_percent": 0.01,
+        "bbox": [
+          1509,
+          248,
+          1521,
+          264
+        ],
+        "score": 0.299
+      },
+      {
+        "index": 4,
+        "area_pixels": 160,
+        "coverage_percent": 0.02,
+        "bbox": [
+          1244,
+          532,
+          1256,
+          547
+        ],
+        "score": 0.17
+      },
+      {
+        "index": 5,
+        "area_pixels": 533,
+        "coverage_percent": 0.05,
+        "bbox": [
+          1398,
+          383,
+          1423,
+          415
+        ],
+        "score": 0.395
+      },
+      {
+        "index": 6,
+        "area_pixels": 124,
+        "coverage_percent": 0.01,
+        "bbox": [
+          1006,
+          485,
+          1016,
+          498
+        ],
+        "score": 0.195
+      },
+      {
+        "index": 7,
+        "area_pixels": 294,
+        "coverage_percent": 0.03,
+        "bbox": [
+          1217,
+          628,
+          1239,
+          644
+        ],
+        "score": 0.299
+      },
+      {
+        "index": 8,
+        "area_pixels": 365,
+        "coverage_percent": 0.04,
+        "bbox": [
+          1467,
+          290,
+          1491,
+          308
+        ],
+        "score": 0.246
+      },
+      {
+        "index": 9,
+        "area_pixels": 1222,
+        "coverage_percent": 0.12,
+        "bbox": [
+          1325,
+          460,
+          1366,
+          506
+        ],
+        "score": 0.361
+      },
+      {
+        "index": 10,
+        "area_pixels": 522,
+        "coverage_percent": 0.05,
+        "bbox": [
+          65,
+          537,
+          85,
+          575
+        ],
+        "score": 0.157
+      },
+      {
+        "index": 11,
+        "area_pixels": 190,
+        "coverage_percent": 0.02,
+        "bbox": [
+          1397,
+          388,
+          1411,
+          405
+        ],
+        "score": 0.2
+      },
+      {
+        "index": 12,
+        "area_pixels": 569,
+        "coverage_percent": 0.06,
+        "bbox": [
+          214,
+          549,
+          236,
+          588
+        ],
+        "score": 0.196
+      },
+      {
+        "index": 13,
+        "area_pixels": 169,
+        "coverage_percent": 0.02,
+        "bbox": [
+          999,
+          421,
+          1009,
+          440
+        ],
+        "score": 0.371
+      },
+      {
+        "index": 14,
+        "area_pixels": 198,
+        "coverage_percent": 0.02,
+        "bbox": [
+          1336,
+          494,
+          1356,
+          506
+        ],
+        "score": 0.283
+      },
+      {
+        "index": 15,
+        "area_pixels": 116,
+        "coverage_percent": 0.01,
+        "bbox": [
+          1002,
+          593,
+          1010,
+          608
+        ],
+        "score": 0.218
+      },
+      {
+        "index": 16,
+        "area_pixels": 185,
+        "coverage_percent": 0.02,
+        "bbox": [
+          1348,
+          460,
+          1364,
+          474
+        ],
+        "score": 0.157
+      },
+      {
+        "index": 17,
+        "area_pixels": 692,
+        "coverage_percent": 0.07,
+        "bbox": [
+          133,
+          575,
+          157,
+          617
+        ],
+        "score": 0.357
+      },
+      {
+        "index": 18,
+        "area_pixels": 186,
+        "coverage_percent": 0.02,
+        "bbox": [
+          135,
+          575,
+          151,
+          589
+        ],
+        "score": 0.268
+      },
+      {
+        "index": 19,
+        "area_pixels": 210,
+        "coverage_percent": 0.02,
+        "bbox": [
+          1516,
+          228,
+          1535,
+          241
+        ],
+        "score": 0.211
+      },
+      {
+        "index": 20,
+        "area_pixels": 178,
+        "coverage_percent": 0.02,
+        "bbox": [
+          1495,
+          266,
+          1508,
+          283
+        ],
+        "score": 0.264
+      },
+      {
+        "index": 21,
+        "area_pixels": 177,
+        "coverage_percent": 0.02,
+        "bbox": [
+          1243,
+          597,
+          1257,
+          611
+        ],
+        "score": 0.43
+      },
+      {
+        "index": 22,
+        "area_pixels": 113,
+        "coverage_percent": 0.01,
+        "bbox": [
+          971,
+          593,
+          980,
+          607
+        ],
+        "score": 0.352
+      },
+      {
+        "index": 23,
+        "area_pixels": 202,
+        "coverage_percent": 0.02,
+        "bbox": [
+          1079,
+          641,
+          1095,
+          654
+        ],
+        "score": 0.314
+      },
+      {
+        "index": 24,
+        "area_pixels": 158,
+        "coverage_percent": 0.02,
+        "bbox": [
+          1254,
+          471,
+          1265,
+          486
+        ],
+        "score": 0.163
+      },
+      {
+        "index": 25,
+        "area_pixels": 137,
+        "coverage_percent": 0.01,
+        "bbox": [
+          67,
+          537,
+          79,
+          549
+        ],
+        "score": 0.168
+      },
+      {
+        "index": 26,
+        "area_pixels": 121,
+        "coverage_percent": 0.01,
+        "bbox": [
+          1411,
+          383,
+          1422,
+          396
+        ],
+        "score": 0.393
+      },
+      {
+        "index": 27,
+        "area_pixels": 100,
+        "coverage_percent": 0.01,
+        "bbox": [
+          959,
+          624,
+          971,
+          635
+        ],
+        "score": 0.365
+      },
+      {
+        "index": 28,
+        "area_pixels": 106,
+        "coverage_percent": 0.01,
+        "bbox": [
+          1403,
+          384,
+          1417,
+          398
+        ],
+        "score": 0.34
+      },
+      {
+        "index": 29,
+        "area_pixels": 810,
+        "coverage_percent": 0.08,
+        "bbox": [
+          1230,
+          597,
+          1263,
+          638
+        ],
+        "score": 0.303
+      },
+      {
+        "index": 30,
+        "area_pixels": 2855,
+        "coverage_percent": 0.28,
+        "bbox": [
+          131,
+          550,
+          238,
+          618
+        ],
+        "score": 0.163
+      },
+      {
+        "index": 31,
+        "area_pixels": 140,
+        "coverage_percent": 0.01,
+        "bbox": [
+          12,
+          157,
+          28,
+          167
+        ],
+        "score": 0.299
+      }
+    ],
+    "hole": [
+      {
+        "index": 0,
+        "area_pixels": 590,
+        "coverage_percent": 0.06,
+        "bbox": [
+          1012,
+          340,
+          1034,
+          375
+        ],
+        "score": 0.457
+      },
+      {
+        "index": 1,
+        "area_pixels": 142,
+        "coverage_percent": 0.01,
+        "bbox": [
+          1245,
+          532,
+          1255,
+          547
+        ],
+        "score": 0.475
+      },
+      {
+        "index": 2,
+        "area_pixels": 103,
+        "coverage_percent": 0.01,
+        "bbox": [
+          321,
+          194,
+          334,
+          202
+        ],
+        "score": 0.318
+      },
+      {
+        "index": 3,
+        "area_pixels": 136,
+        "coverage_percent": 0.01,
+        "bbox": [
+          1015,
+          362,
+          1029,
+          376
+        ],
+        "score": 0.443
+      },
+      {
+        "index": 4,
+        "area_pixels": 195,
+        "coverage_percent": 0.02,
+        "bbox": [
+          1079,
+          641,
+          1095,
+          654
+        ],
+        "score": 0.295
+      },
+      {
+        "index": 5,
+        "area_pixels": 141,
+        "coverage_percent": 0.01,
+        "bbox": [
+          1254,
+          471,
+          1264,
+          486
+        ],
+        "score": 0.625
+      },
+      {
+        "index": 6,
+        "area_pixels": 119,
+        "coverage_percent": 0.01,
+        "bbox": [
+          696,
+          578,
+          707,
+          591
+        ],
+        "score": 0.559
+      },
+      {
+        "index": 7,
+        "area_pixels": 115,
+        "coverage_percent": 0.01,
+        "bbox": [
+          1002,
+          593,
+          1010,
+          608
+        ],
+        "score": 0.211
+      },
+      {
+        "index": 8,
+        "area_pixels": 270,
+        "coverage_percent": 0.03,
+        "bbox": [
+          606,
+          583,
+          621,
+          604
+        ],
+        "score": 0.566
+      },
+      {
+        "index": 9,
+        "area_pixels": 352,
+        "coverage_percent": 0.03,
+        "bbox": [
+          905,
+          260,
+          937,
+          273
+        ],
+        "score": 0.482
+      },
+      {
+        "index": 10,
+        "area_pixels": 117,
+        "coverage_percent": 0.01,
+        "bbox": [
+          1006,
+          485,
+          1016,
+          498
+        ],
+        "score": 0.656
+      },
+      {
+        "index": 11,
+        "area_pixels": 162,
+        "coverage_percent": 0.02,
+        "bbox": [
+          999,
+          421,
+          1009,
+          440
+        ],
+        "score": 0.574
+      },
+      {
+        "index": 12,
+        "area_pixels": 23274,
+        "coverage_percent": 2.31,
+        "bbox": [
+          87,
+          364,
+          391,
+          533
+        ],
+        "score": 0.396
+      }
+    ],
+    "glass": [
+      {
+        "index": 0,
+        "area_pixels": 6718,
+        "coverage_percent": 0.67,
+        "bbox": [
+          1094,
+          499,
+          1248,
+          654
+        ],
+        "score": 0.283
+      },
+      {
+        "index": 1,
+        "area_pixels": 1067,
+        "coverage_percent": 0.11,
+        "bbox": [
+          454,
+          0,
+          497,
+          26
+        ],
+        "score": 0.151
+      },
+      {
+        "index": 2,
+        "area_pixels": 81142,
+        "coverage_percent": 8.07,
+        "bbox": [
+          1204,
+          201,
+          1535,
+          654
+        ],
+        "score": 0.163
+      },
+      {
+        "index": 3,
+        "area_pixels": 899,
+        "coverage_percent": 0.09,
+        "bbox": [
+          360,
+          0,
+          409,
+          19
+        ],
+        "score": 0.152
+      },
+      {
+        "index": 4,
+        "area_pixels": 84532,
+        "coverage_percent": 8.4,
+        "bbox": [
+          138,
+          133,
+          1452,
+          257
+        ],
+        "score": 0.404
+      },
+      {
+        "index": 5,
+        "area_pixels": 34975,
+        "coverage_percent": 3.48,
+        "bbox": [
+          164,
+          0,
+          1130,
+          71
+        ],
+        "score": 0.16
+      },
+      {
+        "index": 6,
+        "area_pixels": 1251,
+        "coverage_percent": 0.12,
+        "bbox": [
+          584,
+          0,
+          622,
+          36
+        ],
+        "score": 0.164
+      },
+      {
+        "index": 7,
+        "area_pixels": 1300,
+        "coverage_percent": 0.13,
+        "bbox": [
+          658,
+          0,
+          695,
+          41
+        ],
+        "score": 0.154
+      },
+      {
+        "index": 8,
+        "area_pixels": 740,
+        "coverage_percent": 0.07,
+        "bbox": [
+          299,
+          0,
+          353,
+          14
+        ],
+        "score": 0.328
+      },
+      {
+        "index": 9,
+        "area_pixels": 1215,
+        "coverage_percent": 0.12,
+        "bbox": [
+          544,
+          0,
+          587,
+          32
+        ],
+        "score": 0.207
+      },
+      {
+        "index": 10,
+        "area_pixels": 280,
+        "coverage_percent": 0.03,
+        "bbox": [
+          159,
+          0,
+          222,
+          5
+        ],
+        "score": 0.18
+      }
+    ]
+  }
+}
