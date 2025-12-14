@@ -1,0 +1,717 @@
+[
+  {
+    "image": "IMG_5346 2.jpg",
+    "category": "negative",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.531,
+    "features": {
+      "aspect_ratio": 0.75,
+      "edge_density": 0.0409,
+      "h_lines": 2890,
+      "v_lines": 645,
+      "corner_density": 10.62
+    }
+  },
+  {
+    "image": "IMG_5349 2.jpg",
+    "category": "negative",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.398,
+    "features": {
+      "aspect_ratio": 0.75,
+      "edge_density": 0.045,
+      "h_lines": 3149,
+      "v_lines": 301,
+      "corner_density": 1.96
+    }
+  },
+  {
+    "image": "IMG_5350 2.jpg",
+    "category": "negative",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.619,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0684,
+      "h_lines": 5041,
+      "v_lines": 241,
+      "corner_density": 12.24
+    }
+  },
+  {
+    "image": "IMG_5354 2.jpg",
+    "category": "negative",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.372,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0358,
+      "h_lines": 1390,
+      "v_lines": 195,
+      "corner_density": 1.62
+    }
+  },
+  {
+    "image": "IMG_5356 2.jpg",
+    "category": "negative",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.345,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0258,
+      "h_lines": 2950,
+      "v_lines": 123,
+      "corner_density": 1.02
+    }
+  },
+  {
+    "image": "IMG_5362 2.jpg",
+    "category": "negative",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.556,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0648,
+      "h_lines": 6350,
+      "v_lines": 227,
+      "corner_density": 9.77
+    }
+  },
+  {
+    "image": "IMG_5373 2.jpg",
+    "category": "negative",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.366,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0354,
+      "h_lines": 2713,
+      "v_lines": 321,
+      "corner_density": 1.12
+    }
+  },
+  {
+    "image": "IMG_5374 2.jpg",
+    "category": "negative",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.34,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0248,
+      "h_lines": 1950,
+      "v_lines": 188,
+      "corner_density": 0.75
+    }
+  },
+  {
+    "image": "IMG_5375 2.jpg",
+    "category": "negative",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.363,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0315,
+      "h_lines": 1219,
+      "v_lines": 204,
+      "corner_density": 1.68
+    }
+  },
+  {
+    "image": "IMG_5398 2.jpg",
+    "category": "negative",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.39,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.053,
+      "h_lines": 3384,
+      "v_lines": 98,
+      "corner_density": 45.63
+    }
+  },
+  {
+    "image": "IMG_5401 2.jpg",
+    "category": "negative",
+    "matched_model": "1039-1-CWQ4946-4GT2-4000-4_01.STP",
+    "confidence": 0.514,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0123,
+      "h_lines": 141,
+      "v_lines": 24,
+      "corner_density": 2.12
+    }
+  },
+  {
+    "image": "IMG_5443 3.jpg",
+    "category": "negative",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.558,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0519,
+      "h_lines": 4519,
+      "v_lines": 153,
+      "corner_density": 12.99
+    }
+  },
+  {
+    "image": "IMG_5445 3.jpg",
+    "category": "negative",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.363,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0276,
+      "h_lines": 2448,
+      "v_lines": 131,
+      "corner_density": 1.67
+    }
+  },
+  {
+    "image": "IMG_5446 3.jpg",
+    "category": "negative",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.336,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0162,
+      "h_lines": 781,
+      "v_lines": 32,
+      "corner_density": 1.74
+    }
+  },
+  {
+    "image": "IMG_5456 3.jpg",
+    "category": "negative",
+    "matched_model": "1039-1-CWQ4946-4GT2-4000-4_01.STP",
+    "confidence": 0.51,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0444,
+      "h_lines": 3898,
+      "v_lines": 101,
+      "corner_density": 7.74
+    }
+  },
+  {
+    "image": "IMG_5457 3.jpg",
+    "category": "negative",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.36,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0278,
+      "h_lines": 2329,
+      "v_lines": 125,
+      "corner_density": 1.63
+    }
+  },
+  {
+    "image": "IMG_5458 3.jpg",
+    "category": "negative",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.375,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.025,
+      "h_lines": 951,
+      "v_lines": 48,
+      "corner_density": 3.17
+    }
+  },
+  {
+    "image": "IMG_5462 3.jpg",
+    "category": "negative",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.543,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.046,
+      "h_lines": 2961,
+      "v_lines": 204,
+      "corner_density": 13.09
+    }
+  },
+  {
+    "image": "IMG_5463 3.jpg",
+    "category": "negative",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.351,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0274,
+      "h_lines": 2784,
+      "v_lines": 191,
+      "corner_density": 1.39
+    }
+  },
+  {
+    "image": "IMG_5464 3.jpg",
+    "category": "negative",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.356,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.031,
+      "h_lines": 2640,
+      "v_lines": 178,
+      "corner_density": 1.14
+    }
+  },
+  {
+    "image": "IMG_5465 3.jpg",
+    "category": "negative",
+    "matched_model": "1039-1-CWQ4946-4GT2-4000-4_01.STP",
+    "confidence": 0.405,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0321,
+      "h_lines": 1469,
+      "v_lines": 41,
+      "corner_density": 4.05
+    }
+  },
+  {
+    "image": "IMG_5469 3.jpg",
+    "category": "negative",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.414,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0402,
+      "h_lines": 1730,
+      "v_lines": 295,
+      "corner_density": 3.58
+    }
+  },
+  {
+    "image": "IMG_5471 3.jpg",
+    "category": "negative",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.551,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.049,
+      "h_lines": 2328,
+      "v_lines": 284,
+      "corner_density": 13.28
+    }
+  },
+  {
+    "image": "IMG_5491 3.jpg",
+    "category": "negative",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.317,
+    "features": {
+      "aspect_ratio": 0.75,
+      "edge_density": 0.0109,
+      "h_lines": 868,
+      "v_lines": 224,
+      "corner_density": 0.61
+    }
+  },
+  {
+    "image": "IMG_5494 3.jpg",
+    "category": "negative",
+    "matched_model": "1039-1-CWQ4946-4GT2-4000-4_01.STP",
+    "confidence": 0.415,
+    "features": {
+      "aspect_ratio": 0.75,
+      "edge_density": 0.0196,
+      "h_lines": 838,
+      "v_lines": 322,
+      "corner_density": 4.71
+    }
+  },
+  {
+    "image": "IMG_5496 3.jpg",
+    "category": "negative",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.329,
+    "features": {
+      "aspect_ratio": 0.75,
+      "edge_density": 0.0141,
+      "h_lines": 531,
+      "v_lines": 428,
+      "corner_density": 1.09
+    }
+  },
+  {
+    "image": "IMG_5616.jpg",
+    "category": "negative",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.351,
+    "features": {
+      "aspect_ratio": 0.75,
+      "edge_density": 0.0215,
+      "h_lines": 278,
+      "v_lines": 1184,
+      "corner_density": 1.29
+    }
+  },
+  {
+    "image": "IMG_5620.jpg",
+    "category": "negative",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.39,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0457,
+      "h_lines": 3441,
+      "v_lines": 127,
+      "corner_density": 1.62
+    }
+  },
+  {
+    "image": "IMG_5621.jpg",
+    "category": "negative",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.57,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0582,
+      "h_lines": 2904,
+      "v_lines": 138,
+      "corner_density": 13.66
+    }
+  },
+  {
+    "image": "IMG_5622.jpg",
+    "category": "negative",
+    "matched_model": "1039-1-CWQ4946-4GT2-4000-4_01.STP",
+    "confidence": 0.452,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0232,
+      "h_lines": 1401,
+      "v_lines": 12,
+      "corner_density": 6.5
+    }
+  },
+  {
+    "image": "IMG_5623.jpg",
+    "category": "negative",
+    "matched_model": "1039-1-CWQ4946-4GT2-4000-4_01.STP",
+    "confidence": 0.396,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0235,
+      "h_lines": 2351,
+      "v_lines": 34,
+      "corner_density": 4.31
+    }
+  },
+  {
+    "image": "IMG_5628.jpg",
+    "category": "negative",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.392,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0354,
+      "h_lines": 3153,
+      "v_lines": 72,
+      "corner_density": 2.55
+    }
+  },
+  {
+    "image": "IMG_5640.jpg",
+    "category": "negative",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.384,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0364,
+      "h_lines": 1640,
+      "v_lines": 352,
+      "corner_density": 2.38
+    }
+  },
+  {
+    "image": "IMG_5643.jpg",
+    "category": "negative",
+    "matched_model": "1039-1-CWQ4946-4GT2-4000-4_01.STP",
+    "confidence": 0.462,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0436,
+      "h_lines": 2698,
+      "v_lines": 15,
+      "corner_density": 5.54
+    }
+  },
+  {
+    "image": "IMG_5648.jpg",
+    "category": "negative",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.39,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0348,
+      "h_lines": 2859,
+      "v_lines": 182,
+      "corner_density": 2.54
+    }
+  },
+  {
+    "image": "IMG_5662.jpg",
+    "category": "negative",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.4,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0378,
+      "h_lines": 2212,
+      "v_lines": 133,
+      "corner_density": 2.8
+    }
+  },
+  {
+    "image": "IMG_5665.jpg",
+    "category": "negative",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.321,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0138,
+      "h_lines": 968,
+      "v_lines": 71,
+      "corner_density": 1.01
+    }
+  },
+  {
+    "image": "IMG_5667.jpg",
+    "category": "negative",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.487,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0158,
+      "h_lines": 191,
+      "v_lines": 149,
+      "corner_density": 0.41
+    }
+  },
+  {
+    "image": "IMG_5669.jpg",
+    "category": "negative",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.319,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0171,
+      "h_lines": 683,
+      "v_lines": 210,
+      "corner_density": 0.48
+    }
+  },
+  {
+    "image": "IMG_5670.jpg",
+    "category": "negative",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.47,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0092,
+      "h_lines": 269,
+      "v_lines": 85,
+      "corner_density": 0.76
+    }
+  },
+  {
+    "image": "IMG_5671.jpg",
+    "category": "negative",
+    "matched_model": "1039-1-CWQ4946-4GT2-4000-4_01.STP",
+    "confidence": 0.467,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0365,
+      "h_lines": 2476,
+      "v_lines": 227,
+      "corner_density": 5.92
+    }
+  },
+  {
+    "image": "IMG_5686.jpg",
+    "category": "negative",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.39,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0309,
+      "h_lines": 523,
+      "v_lines": 91,
+      "corner_density": 2.57
+    }
+  },
+  {
+    "image": "IMG_9827.png",
+    "category": "negative",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.576,
+    "features": {
+      "aspect_ratio": 1.473,
+      "edge_density": 0.1048,
+      "h_lines": 595,
+      "v_lines": 28,
+      "corner_density": 30.79
+    }
+  },
+  {
+    "image": "IMG_5470 3.jpg",
+    "category": "positive",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.568,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0488,
+      "h_lines": 1613,
+      "v_lines": 63,
+      "corner_density": 12.27
+    }
+  },
+  {
+    "image": "IMG_5478 3.jpg",
+    "category": "positive",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.394,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.04,
+      "h_lines": 1467,
+      "v_lines": 122,
+      "corner_density": 3.01
+    }
+  },
+  {
+    "image": "IMG_5653.jpg",
+    "category": "positive",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.33,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0179,
+      "h_lines": 1343,
+      "v_lines": 229,
+      "corner_density": 1.17
+    }
+  },
+  {
+    "image": "IMG_5658.jpg",
+    "category": "positive",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.31,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0133,
+      "h_lines": 637,
+      "v_lines": 309,
+      "corner_density": 0.34
+    }
+  },
+  {
+    "image": "IMG_5659.jpg",
+    "category": "positive",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.388,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0383,
+      "h_lines": 2205,
+      "v_lines": 244,
+      "corner_density": 2.19
+    }
+  },
+  {
+    "image": "IMG_5672.jpg",
+    "category": "positive",
+    "matched_model": "1039-1-CWQ4946-4GT2-4000-4_01.STP",
+    "confidence": 0.422,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0353,
+      "h_lines": 2837,
+      "v_lines": 174,
+      "corner_density": 4.16
+    }
+  },
+  {
+    "image": "IMG_5675.jpg",
+    "category": "positive",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.339,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0193,
+      "h_lines": 590,
+      "v_lines": 86,
+      "corner_density": 1.42
+    }
+  },
+  {
+    "image": "IMG_5678.jpg",
+    "category": "positive",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.57,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0698,
+      "h_lines": 6970,
+      "v_lines": 288,
+      "corner_density": 18.88
+    }
+  },
+  {
+    "image": "IMG_5679.jpg",
+    "category": "positive",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.333,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0224,
+      "h_lines": 1079,
+      "v_lines": 405,
+      "corner_density": 0.7
+    }
+  },
+  {
+    "image": "IMG_5681.jpg",
+    "category": "positive",
+    "matched_model": "1039-1-CWQ4946-4GT2-4000-4_01.STP",
+    "confidence": 0.516,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0405,
+      "h_lines": 3501,
+      "v_lines": 247,
+      "corner_density": 8.15
+    }
+  },
+  {
+    "image": "IMG_5700.jpg",
+    "category": "positive",
+    "matched_model": "1039-1-CWQ4946-4GT2-4000-4_01.STP",
+    "confidence": 0.428,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0413,
+      "h_lines": 4171,
+      "v_lines": 109,
+      "corner_density": 4.01
+    }
+  },
+  {
+    "image": "IMG_5701.jpg",
+    "category": "positive",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.387,
+    "features": {
+      "aspect_ratio": 1.333,
+      "edge_density": 0.0223,
+      "h_lines": 811,
+      "v_lines": 259,
+      "corner_density": 3.56
+    }
+  }
+]

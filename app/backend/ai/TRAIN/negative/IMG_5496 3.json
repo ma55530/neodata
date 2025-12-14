@@ -1,0 +1,8 @@
+{
+    "image": "IMG_5496 3.HEIC",
+    "defects": [
+        {"component": "screw", "type": "missing", "location": "bottom-right"},
+        {"component": "tin", "type": "missing", "location": "right"}
+
+    ]
+}

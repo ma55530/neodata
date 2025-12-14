@@ -1,0 +1,3004 @@
+[
+  {
+    "image": "IMG_5350_2_facade_segmented.jpg",
+    "tin_pixels": 505126,
+    "tin_coverage": 0.8045777816713522,
+    "zone_analysis": {
+      "top-left": {
+        "score": 0.8,
+        "factors": [
+          "high_edge_density:0.12",
+          "high_texture_var:580",
+          "damage_regions:1"
+        ]
+      },
+      "top-center": {
+        "score": 0.6000000000000001,
+        "factors": [
+          "damage_regions:3"
+        ]
+      },
+      "top-right": {
+        "score": 0.6000000000000001,
+        "factors": [
+          "damage_regions:3"
+        ]
+      },
+      "center-left": {
+        "score": 0.2,
+        "factors": [
+          "damage_regions:1"
+        ]
+      },
+      "bottom-left": {
+        "score": 0.6000000000000001,
+        "factors": [
+          "damage_regions:4"
+        ]
+      },
+      "bottom-center": {
+        "score": 0.2,
+        "factors": [
+          "damage_regions:1"
+        ]
+      }
+    },
+    "damage_regions": [
+      {
+        "zone": "bottom-left",
+        "damage_type": "scratch",
+        "severity": 0.52,
+        "confidence": 0.66,
+        "bbox": [
+          98,
+          392,
+          53,
+          12
+        ]
+      },
+      {
+        "zone": "bottom-left",
+        "damage_type": "scratch",
+        "severity": 0.56,
+        "confidence": 0.67,
+        "bbox": [
+          160,
+          390,
+          53,
+          12
+        ]
+      },
+      {
+        "zone": "bottom-center",
+        "damage_type": "scratch",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          666,
+          378,
+          113,
+          31
+        ]
+      },
+      {
+        "zone": "bottom-left",
+        "damage_type": "scratch",
+        "severity": 0.55,
+        "confidence": 0.66,
+        "bbox": [
+          136,
+          339,
+          81,
+          24
+        ]
+      },
+      {
+        "zone": "bottom-left",
+        "damage_type": "scratch",
+        "severity": 0.51,
+        "confidence": 0.65,
+        "bbox": [
+          337,
+          318,
+          66,
+          19
+        ]
+      },
+      {
+        "zone": "center-left",
+        "damage_type": "dent",
+        "severity": 0.6,
+        "confidence": 0.68,
+        "bbox": [
+          240,
+          226,
+          69,
+          23
+        ]
+      },
+      {
+        "zone": "top-right",
+        "damage_type": "dent",
+        "severity": 0.77,
+        "confidence": 0.73,
+        "bbox": [
+          1493,
+          3,
+          42,
+          35
+        ]
+      },
+      {
+        "zone": "top-right",
+        "damage_type": "scratch",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          1365,
+          3,
+          35,
+          11
+        ]
+      },
+      {
+        "zone": "top-right",
+        "damage_type": "scratch",
+        "severity": 0.91,
+        "confidence": 0.77,
+        "bbox": [
+          1048,
+          0,
+          57,
+          15
+        ]
+      },
+      {
+        "zone": "top-center",
+        "damage_type": "scratch",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          978,
+          0,
+          65,
+          12
+        ]
+      },
+      {
+        "zone": "top-center",
+        "damage_type": "scratch",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          672,
+          0,
+          89,
+          15
+        ]
+      },
+      {
+        "zone": "top-center",
+        "damage_type": "scratch",
+        "severity": 0.83,
+        "confidence": 0.75,
+        "bbox": [
+          544,
+          0,
+          72,
+          19
+        ]
+      },
+      {
+        "zone": "top-left",
+        "damage_type": "scratch",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          325,
+          0,
+          94,
+          31
+        ]
+      }
+    ],
+    "defects": [
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-left",
+        "confidence": 0.6565934065934066,
+        "damage_type": "scratch",
+        "severity": 0.521978021978022
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-left",
+        "confidence": 0.6680672268907564,
+        "damage_type": "scratch",
+        "severity": 0.5602240896358545
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "damage_type": "scratch",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-left",
+        "confidence": 0.6639619473978735,
+        "damage_type": "scratch",
+        "severity": 0.5465398246595785
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-left",
+        "confidence": 0.6515151515151515,
+        "damage_type": "scratch",
+        "severity": 0.5050505050505051
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center-left",
+        "confidence": 0.6808443604284814,
+        "damage_type": "dent",
+        "severity": 0.6028145347616047
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-right",
+        "confidence": 0.732,
+        "damage_type": "dent",
+        "severity": 0.7733333333333334
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-right",
+        "confidence": 0.8,
+        "damage_type": "scratch",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-right",
+        "confidence": 0.7732919254658386,
+        "damage_type": "scratch",
+        "severity": 0.9109730848861285
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-center",
+        "confidence": 0.8,
+        "damage_type": "scratch",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-center",
+        "confidence": 0.8,
+        "damage_type": "scratch",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-center",
+        "confidence": 0.748,
+        "damage_type": "scratch",
+        "severity": 0.8266666666666667
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.8,
+        "damage_type": "scratch",
+        "severity": 1.0
+      }
+    ],
+    "ground_truth": [
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-left"
+      }
+    ]
+  },
+  {
+    "image": "IMG_5356_2_facade_segmented.jpg",
+    "tin_pixels": 675503,
+    "tin_coverage": 0.5975279877151268,
+    "zone_analysis": {
+      "top-left": {
+        "score": 0.8,
+        "factors": [
+          "high_edge_density:0.14",
+          "high_texture_var:861",
+          "damage_regions:1"
+        ]
+      },
+      "top-center": {
+        "score": 0.6,
+        "factors": [
+          "high_edge_density:0.12",
+          "high_texture_var:1031"
+        ]
+      }
+    },
+    "damage_regions": [
+      {
+        "zone": "top-left",
+        "damage_type": "dent",
+        "severity": 0.64,
+        "confidence": 0.69,
+        "bbox": [
+          0,
+          0,
+          219,
+          178
+        ]
+      }
+    ],
+    "defects": [
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.6934584755403869,
+        "damage_type": "dent",
+        "severity": 0.6448615851346228
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-center",
+        "confidence": 0.6,
+        "damage_type": "surface_anomaly",
+        "factors": [
+          "high_edge_density:0.12",
+          "high_texture_var:1031"
+        ]
+      }
+    ],
+    "ground_truth": [
+      {
+        "component": "tin",
+        "type": "missing",
+        "location": "center"
+      }
+    ]
+  },
+  {
+    "image": "IMG_5373_2_facade_segmented.jpg",
+    "tin_pixels": 418692,
+    "tin_coverage": 0.8040883112094396,
+    "zone_analysis": {
+      "top-left": {
+        "score": 0.2,
+        "factors": [
+          "damage_regions:1"
+        ]
+      },
+      "top-center": {
+        "score": 0.6,
+        "factors": [
+          "high_edge_density:0.12",
+          "high_texture_var:870"
+        ]
+      },
+      "center-left": {
+        "score": 0.2,
+        "factors": [
+          "damage_regions:1"
+        ]
+      },
+      "center": {
+        "score": 0.2,
+        "factors": [
+          "damage_regions:1"
+        ]
+      },
+      "bottom-left": {
+        "score": 0.3,
+        "factors": [
+          "high_texture_var:1193"
+        ]
+      },
+      "bottom-center": {
+        "score": 0.6,
+        "factors": [
+          "high_edge_density:0.11",
+          "high_texture_var:648"
+        ]
+      },
+      "bottom-right": {
+        "score": 0.6,
+        "factors": [
+          "high_edge_density:0.15",
+          "high_texture_var:1026"
+        ]
+      }
+    },
+    "damage_regions": [
+      {
+        "zone": "center",
+        "damage_type": "scratch",
+        "severity": 0.57,
+        "confidence": 0.67,
+        "bbox": [
+          835,
+          187,
+          81,
+          25
+        ]
+      },
+      {
+        "zone": "center-left",
+        "damage_type": "dent",
+        "severity": 0.54,
+        "confidence": 0.66,
+        "bbox": [
+          0,
+          161,
+          41,
+          24
+        ]
+      },
+      {
+        "zone": "top-left",
+        "damage_type": "dent",
+        "severity": 0.58,
+        "confidence": 0.67,
+        "bbox": [
+          385,
+          30,
+          70,
+          24
+        ]
+      }
+    ],
+    "defects": [
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center",
+        "confidence": 0.6720368239355581,
+        "damage_type": "scratch",
+        "severity": 0.5734560797851938
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center-left",
+        "confidence": 0.6617497456765005,
+        "damage_type": "dent",
+        "severity": 0.5391658189216684
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.672950329144225,
+        "damage_type": "dent",
+        "severity": 0.5765010971474167
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-center",
+        "confidence": 0.6,
+        "damage_type": "surface_anomaly",
+        "factors": [
+          "high_edge_density:0.12",
+          "high_texture_var:870"
+        ]
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-center",
+        "confidence": 0.6,
+        "damage_type": "surface_anomaly",
+        "factors": [
+          "high_edge_density:0.11",
+          "high_texture_var:648"
+        ]
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-right",
+        "confidence": 0.6,
+        "damage_type": "surface_anomaly",
+        "factors": [
+          "high_edge_density:0.15",
+          "high_texture_var:1026"
+        ]
+      }
+    ],
+    "ground_truth": [
+      {
+        "component": "tin",
+        "type": "missing",
+        "location": "center"
+      }
+    ]
+  },
+  {
+    "image": "IMG_5401_2_facade_segmented.jpg",
+    "tin_pixels": 877539,
+    "tin_coverage": 0.5617644573500492,
+    "zone_analysis": {
+      "top-left": {
+        "score": 0.6,
+        "factors": [
+          "high_edge_density:0.11",
+          "high_texture_var:753"
+        ]
+      },
+      "top-center": {
+        "score": 0.2,
+        "factors": [
+          "damage_regions:1"
+        ]
+      },
+      "top-right": {
+        "score": 0.8,
+        "factors": [
+          "high_edge_density:0.11",
+          "high_texture_var:749",
+          "damage_regions:1"
+        ]
+      },
+      "bottom-left": {
+        "score": 0.5,
+        "factors": [
+          "high_texture_var:776",
+          "damage_regions:1"
+        ]
+      },
+      "bottom-right": {
+        "score": 0.6000000000000001,
+        "factors": [
+          "damage_regions:3"
+        ]
+      }
+    },
+    "damage_regions": [
+      {
+        "zone": "bottom-right",
+        "damage_type": "dent",
+        "severity": 0.87,
+        "confidence": 0.76,
+        "bbox": [
+          1186,
+          987,
+          17,
+          17
+        ]
+      },
+      {
+        "zone": "bottom-right",
+        "damage_type": "dent",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          1206,
+          969,
+          28,
+          21
+        ]
+      },
+      {
+        "zone": "bottom-left",
+        "damage_type": "dent",
+        "severity": 0.51,
+        "confidence": 0.65,
+        "bbox": [
+          345,
+          766,
+          69,
+          24
+        ]
+      },
+      {
+        "zone": "bottom-right",
+        "damage_type": "scratch",
+        "severity": 0.97,
+        "confidence": 0.79,
+        "bbox": [
+          1528,
+          747,
+          8,
+          35
+        ]
+      },
+      {
+        "zone": "top-center",
+        "damage_type": "dent",
+        "severity": 0.66,
+        "confidence": 0.7,
+        "bbox": [
+          763,
+          200,
+          28,
+          18
+        ]
+      },
+      {
+        "zone": "top-right",
+        "damage_type": "scratch",
+        "severity": 0.8,
+        "confidence": 0.74,
+        "bbox": [
+          1121,
+          54,
+          103,
+          20
+        ]
+      }
+    ],
+    "defects": [
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-right",
+        "confidence": 0.76,
+        "damage_type": "dent",
+        "severity": 0.8666666666666667
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "damage_type": "dent",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-left",
+        "confidence": 0.6527777777777778,
+        "damage_type": "dent",
+        "severity": 0.5092592592592593
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-right",
+        "confidence": 0.7921348314606742,
+        "damage_type": "scratch",
+        "severity": 0.9737827715355806
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-center",
+        "confidence": 0.6965811965811965,
+        "damage_type": "dent",
+        "severity": 0.6552706552706553
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-right",
+        "confidence": 0.7405566600397614,
+        "damage_type": "scratch",
+        "severity": 0.8018555334658715
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.6,
+        "damage_type": "surface_anomaly",
+        "factors": [
+          "high_edge_density:0.11",
+          "high_texture_var:753"
+        ]
+      }
+    ],
+    "ground_truth": [
+      {
+        "component": "tin",
+        "type": "missing",
+        "location": "center"
+      }
+    ]
+  },
+  {
+    "image": "IMG_5456_3_facade_segmented.jpg",
+    "tin_pixels": 477317,
+    "tin_coverage": 0.4222190967504529,
+    "zone_analysis": {
+      "top-left": {
+        "score": 1.0,
+        "factors": [
+          "high_edge_density:0.12",
+          "high_texture_var:523",
+          "damage_regions:2"
+        ]
+      },
+      "top-center": {
+        "score": 0.8,
+        "factors": [
+          "high_edge_density:0.15",
+          "high_texture_var:924",
+          "damage_regions:1"
+        ]
+      },
+      "top-right": {
+        "score": 0.8,
+        "factors": [
+          "high_edge_density:0.17",
+          "high_texture_var:763",
+          "damage_regions:1"
+        ]
+      },
+      "center-left": {
+        "score": 0.2,
+        "factors": [
+          "damage_regions:1"
+        ]
+      },
+      "center-right": {
+        "score": 0.2,
+        "factors": [
+          "damage_regions:1"
+        ]
+      },
+      "bottom-left": {
+        "score": 0.3,
+        "factors": [
+          "high_texture_var:631"
+        ]
+      },
+      "bottom-right": {
+        "score": 0.7,
+        "factors": [
+          "high_texture_var:616",
+          "damage_regions:2"
+        ]
+      }
+    },
+    "damage_regions": [
+      {
+        "zone": "bottom-right",
+        "damage_type": "dent",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          1251,
+          585,
+          18,
+          19
+        ]
+      },
+      {
+        "zone": "bottom-right",
+        "damage_type": "dent",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          1069,
+          556,
+          22,
+          12
+        ]
+      },
+      {
+        "zone": "center-left",
+        "damage_type": "dent",
+        "severity": 0.69,
+        "confidence": 0.71,
+        "bbox": [
+          0,
+          271,
+          36,
+          23
+        ]
+      },
+      {
+        "zone": "center-right",
+        "damage_type": "scratch",
+        "severity": 0.51,
+        "confidence": 0.65,
+        "bbox": [
+          993,
+          229,
+          116,
+          37
+        ]
+      },
+      {
+        "zone": "top-left",
+        "damage_type": "dent",
+        "severity": 0.65,
+        "confidence": 0.69,
+        "bbox": [
+          55,
+          214,
+          70,
+          26
+        ]
+      },
+      {
+        "zone": "top-right",
+        "damage_type": "scratch",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          1034,
+          17,
+          45,
+          12
+        ]
+      },
+      {
+        "zone": "top-center",
+        "damage_type": "dent",
+        "severity": 0.88,
+        "confidence": 0.77,
+        "bbox": [
+          763,
+          7,
+          41,
+          28
+        ]
+      },
+      {
+        "zone": "top-left",
+        "damage_type": "dent",
+        "severity": 0.62,
+        "confidence": 0.69,
+        "bbox": [
+          209,
+          0,
+          444,
+          192
+        ]
+      }
+    ],
+    "defects": [
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "damage_type": "dent",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "damage_type": "dent",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center-left",
+        "confidence": 0.7079806529625151,
+        "damage_type": "dent",
+        "severity": 0.6932688432083838
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center-right",
+        "confidence": 0.6532018373412591,
+        "damage_type": "scratch",
+        "severity": 0.5106727911375304
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.6945054945054945,
+        "damage_type": "dent",
+        "severity": 0.6483516483516484
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-right",
+        "confidence": 0.8,
+        "damage_type": "scratch",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-center",
+        "confidence": 0.7651296829971181,
+        "damage_type": "dent",
+        "severity": 0.8837656099903939
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.6852921245691053,
+        "damage_type": "dent",
+        "severity": 0.6176404152303507
+      }
+    ],
+    "ground_truth": [
+      {
+        "component": "tin",
+        "type": "missing",
+        "location": "bottom-right"
+      }
+    ]
+  },
+  {
+    "image": "IMG_5458_3_facade_segmented.jpg",
+    "tin_pixels": 524529,
+    "tin_coverage": 0.32399452976755216,
+    "zone_analysis": {
+      "top-left": {
+        "score": 0.6000000000000001,
+        "factors": [
+          "damage_regions:3"
+        ]
+      },
+      "top-center": {
+        "score": 0.2,
+        "factors": [
+          "damage_regions:1"
+        ]
+      }
+    },
+    "damage_regions": [
+      {
+        "zone": "top-center",
+        "damage_type": "dent",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          770,
+          307,
+          32,
+          19
+        ]
+      },
+      {
+        "zone": "top-left",
+        "damage_type": "dent",
+        "severity": 0.89,
+        "confidence": 0.77,
+        "bbox": [
+          189,
+          79,
+          27,
+          37
+        ]
+      },
+      {
+        "zone": "top-left",
+        "damage_type": "dent",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          362,
+          68,
+          18,
+          24
+        ]
+      },
+      {
+        "zone": "top-left",
+        "damage_type": "dent",
+        "severity": 0.88,
+        "confidence": 0.76,
+        "bbox": [
+          212,
+          28,
+          34,
+          50
+        ]
+      }
+    ],
+    "defects": [
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-center",
+        "confidence": 0.8,
+        "damage_type": "dent",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.7666666666666666,
+        "damage_type": "dent",
+        "severity": 0.888888888888889
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.8,
+        "damage_type": "dent",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.763157894736842,
+        "damage_type": "dent",
+        "severity": 0.8771929824561403
+      }
+    ],
+    "ground_truth": [
+      {
+        "component": "tin",
+        "type": "missing",
+        "location": "center"
+      }
+    ]
+  },
+  {
+    "image": "IMG_5462_3_facade_segmented.jpg",
+    "tin_pixels": 428566,
+    "tin_coverage": 0.3394334828669911,
+    "zone_analysis": {
+      "top-left": {
+        "score": 0.4,
+        "factors": [
+          "damage_regions:2"
+        ]
+      },
+      "top-center": {
+        "score": 0.5,
+        "factors": [
+          "high_texture_var:512",
+          "damage_regions:1"
+        ]
+      },
+      "top-right": {
+        "score": 0.8,
+        "factors": [
+          "high_edge_density:0.10",
+          "high_texture_var:1012",
+          "damage_regions:1"
+        ]
+      },
+      "center-left": {
+        "score": 0.5,
+        "factors": [
+          "high_texture_var:639",
+          "damage_regions:1"
+        ]
+      },
+      "center-right": {
+        "score": 0.9000000000000001,
+        "factors": [
+          "high_texture_var:707",
+          "damage_regions:3"
+        ]
+      },
+      "bottom-left": {
+        "score": 0.6,
+        "factors": [
+          "high_edge_density:0.12",
+          "high_texture_var:1876"
+        ]
+      },
+      "bottom-center": {
+        "score": 0.7,
+        "factors": [
+          "high_texture_var:627",
+          "damage_regions:2"
+        ]
+      },
+      "bottom-right": {
+        "score": 0.2,
+        "factors": [
+          "damage_regions:1"
+        ]
+      }
+    },
+    "damage_regions": [
+      {
+        "zone": "bottom-center",
+        "damage_type": "dent",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          1000,
+          711,
+          24,
+          27
+        ]
+      },
+      {
+        "zone": "bottom-center",
+        "damage_type": "dent",
+        "severity": 0.59,
+        "confidence": 0.68,
+        "bbox": [
+          855,
+          556,
+          71,
+          26
+        ]
+      },
+      {
+        "zone": "bottom-right",
+        "damage_type": "dent",
+        "severity": 0.94,
+        "confidence": 0.78,
+        "bbox": [
+          1370,
+          547,
+          36,
+          84
+        ]
+      },
+      {
+        "zone": "center-right",
+        "damage_type": "dent",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          1368,
+          517,
+          22,
+          23
+        ]
+      },
+      {
+        "zone": "center-right",
+        "damage_type": "dent",
+        "severity": 0.93,
+        "confidence": 0.78,
+        "bbox": [
+          1348,
+          388,
+          26,
+          69
+        ]
+      },
+      {
+        "zone": "center-right",
+        "damage_type": "dent",
+        "severity": 0.92,
+        "confidence": 0.78,
+        "bbox": [
+          1344,
+          360,
+          19,
+          17
+        ]
+      },
+      {
+        "zone": "center-left",
+        "damage_type": "dent",
+        "severity": 0.62,
+        "confidence": 0.69,
+        "bbox": [
+          362,
+          305,
+          70,
+          24
+        ]
+      },
+      {
+        "zone": "top-right",
+        "damage_type": "dent",
+        "severity": 0.59,
+        "confidence": 0.68,
+        "bbox": [
+          1103,
+          234,
+          69,
+          24
+        ]
+      },
+      {
+        "zone": "top-left",
+        "damage_type": "dent",
+        "severity": 0.58,
+        "confidence": 0.67,
+        "bbox": [
+          145,
+          116,
+          71,
+          25
+        ]
+      },
+      {
+        "zone": "top-left",
+        "damage_type": "dent",
+        "severity": 0.77,
+        "confidence": 0.73,
+        "bbox": [
+          94,
+          22,
+          34,
+          13
+        ]
+      },
+      {
+        "zone": "top-center",
+        "damage_type": "scratch",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          902,
+          2,
+          39,
+          12
+        ]
+      }
+    ],
+    "defects": [
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "damage_type": "dent",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-center",
+        "confidence": 0.6755146262188516,
+        "damage_type": "dent",
+        "severity": 0.5850487540628386
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-right",
+        "confidence": 0.7816455696202531,
+        "damage_type": "dent",
+        "severity": 0.938818565400844
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center-right",
+        "confidence": 0.8,
+        "damage_type": "dent",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center-right",
+        "confidence": 0.7779456193353474,
+        "damage_type": "dent",
+        "severity": 0.9264853977844916
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center-right",
+        "confidence": 0.7765957446808511,
+        "damage_type": "dent",
+        "severity": 0.921985815602837
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center-left",
+        "confidence": 0.6869382863990413,
+        "damage_type": "dent",
+        "severity": 0.6231276213301378
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-right",
+        "confidence": 0.6775757575757576,
+        "damage_type": "dent",
+        "severity": 0.591919191919192
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.6740845070422535,
+        "damage_type": "dent",
+        "severity": 0.5802816901408452
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.7295081967213115,
+        "damage_type": "dent",
+        "severity": 0.7650273224043717
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-center",
+        "confidence": 0.8,
+        "damage_type": "scratch",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-left",
+        "confidence": 0.6,
+        "damage_type": "surface_anomaly",
+        "factors": [
+          "high_edge_density:0.12",
+          "high_texture_var:1876"
+        ]
+      }
+    ],
+    "ground_truth": [
+      {
+        "component": "tin",
+        "type": "missing",
+        "location": "bottom-right"
+      }
+    ]
+  },
+  {
+    "image": "IMG_5464_3_facade_segmented.jpg",
+    "tin_pixels": 473112,
+    "tin_coverage": 0.3826281055900621,
+    "zone_analysis": {
+      "top-left": {
+        "score": 1.0,
+        "factors": [
+          "high_edge_density:0.16",
+          "high_texture_var:1006",
+          "damage_regions:3"
+        ]
+      },
+      "top-center": {
+        "score": 0.3,
+        "factors": [
+          "high_texture_var:621"
+        ]
+      },
+      "top-right": {
+        "score": 0.8,
+        "factors": [
+          "high_edge_density:0.14",
+          "high_texture_var:751",
+          "damage_regions:1"
+        ]
+      },
+      "center-left": {
+        "score": 1.0,
+        "factors": [
+          "high_edge_density:0.15",
+          "high_texture_var:631",
+          "damage_regions:3"
+        ]
+      },
+      "center": {
+        "score": 0.4,
+        "factors": [
+          "damage_regions:2"
+        ]
+      },
+      "center-right": {
+        "score": 0.3,
+        "factors": [
+          "high_texture_var:944"
+        ]
+      },
+      "bottom-center": {
+        "score": 0.2,
+        "factors": [
+          "damage_regions:1"
+        ]
+      },
+      "bottom-right": {
+        "score": 0.2,
+        "factors": [
+          "damage_regions:1"
+        ]
+      }
+    },
+    "damage_regions": [
+      {
+        "zone": "bottom-right",
+        "damage_type": "dent",
+        "severity": 0.68,
+        "confidence": 0.7,
+        "bbox": [
+          1490,
+          678,
+          46,
+          127
+        ]
+      },
+      {
+        "zone": "bottom-center",
+        "damage_type": "dent",
+        "severity": 0.58,
+        "confidence": 0.67,
+        "bbox": [
+          713,
+          625,
+          76,
+          26
+        ]
+      },
+      {
+        "zone": "center-left",
+        "damage_type": "dent",
+        "severity": 0.97,
+        "confidence": 0.79,
+        "bbox": [
+          323,
+          458,
+          31,
+          63
+        ]
+      },
+      {
+        "zone": "center",
+        "damage_type": "dent",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          835,
+          376,
+          29,
+          24
+        ]
+      },
+      {
+        "zone": "center-left",
+        "damage_type": "dent",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          187,
+          330,
+          23,
+          15
+        ]
+      },
+      {
+        "zone": "center",
+        "damage_type": "scratch",
+        "severity": 0.65,
+        "confidence": 0.7,
+        "bbox": [
+          880,
+          312,
+          82,
+          25
+        ]
+      },
+      {
+        "zone": "center-left",
+        "damage_type": "scratch",
+        "severity": 0.87,
+        "confidence": 0.76,
+        "bbox": [
+          332,
+          254,
+          32,
+          194
+        ]
+      },
+      {
+        "zone": "top-left",
+        "damage_type": "dent",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          354,
+          207,
+          13,
+          35
+        ]
+      },
+      {
+        "zone": "top-left",
+        "damage_type": "dent",
+        "severity": 0.51,
+        "confidence": 0.65,
+        "bbox": [
+          341,
+          180,
+          42,
+          22
+        ]
+      },
+      {
+        "zone": "top-right",
+        "damage_type": "scratch",
+        "severity": 0.59,
+        "confidence": 0.68,
+        "bbox": [
+          1149,
+          0,
+          79,
+          8
+        ]
+      },
+      {
+        "zone": "top-left",
+        "damage_type": "dent",
+        "severity": 0.7,
+        "confidence": 0.71,
+        "bbox": [
+          0,
+          0,
+          149,
+          159
+        ]
+      }
+    ],
+    "defects": [
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-right",
+        "confidence": 0.7040816326530612,
+        "damage_type": "dent",
+        "severity": 0.6802721088435375
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-center",
+        "confidence": 0.6725708502024291,
+        "damage_type": "dent",
+        "severity": 0.5752361673414306
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center-left",
+        "confidence": 0.7913256955810147,
+        "damage_type": "dent",
+        "severity": 0.9710856519367158
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center",
+        "confidence": 0.8,
+        "damage_type": "dent",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center-left",
+        "confidence": 0.8,
+        "damage_type": "dent",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center",
+        "confidence": 0.6950859950859951,
+        "damage_type": "scratch",
+        "severity": 0.6502866502866503
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center-left",
+        "confidence": 0.7608055009823183,
+        "damage_type": "scratch",
+        "severity": 0.8693516699410608
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.8,
+        "damage_type": "dent",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.6538461538461539,
+        "damage_type": "dent",
+        "severity": 0.5128205128205129
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-right",
+        "confidence": 0.6755233494363929,
+        "damage_type": "scratch",
+        "severity": 0.5850778314546431
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.7113706726709823,
+        "damage_type": "dent",
+        "severity": 0.7045689089032743
+      }
+    ],
+    "ground_truth": [
+      {
+        "component": "tin",
+        "type": "missing",
+        "location": "bottom-left"
+      }
+    ]
+  },
+  {
+    "image": "IMG_5491_3_facade_segmented.jpg",
+    "tin_pixels": 1554528,
+    "tin_coverage": 0.9020164884135472,
+    "zone_analysis": {
+      "top-left": {
+        "score": 0.4,
+        "factors": [
+          "damage_regions:2"
+        ]
+      },
+      "top-center": {
+        "score": 0.2,
+        "factors": [
+          "color_var:10.6"
+        ]
+      },
+      "top-right": {
+        "score": 0.8,
+        "factors": [
+          "color_var:10.5",
+          "damage_regions:3"
+        ]
+      },
+      "center-left": {
+        "score": 0.2,
+        "factors": [
+          "damage_regions:1"
+        ]
+      },
+      "center-right": {
+        "score": 0.2,
+        "factors": [
+          "damage_regions:1"
+        ]
+      },
+      "bottom-left": {
+        "score": 0.2,
+        "factors": [
+          "damage_regions:1"
+        ]
+      },
+      "bottom-center": {
+        "score": 0.4,
+        "factors": [
+          "damage_regions:2"
+        ]
+      },
+      "bottom-right": {
+        "score": 0.2,
+        "factors": [
+          "damage_regions:1"
+        ]
+      }
+    },
+    "damage_regions": [
+      {
+        "zone": "bottom-center",
+        "damage_type": "dent",
+        "severity": 0.54,
+        "confidence": 0.66,
+        "bbox": [
+          767,
+          1105,
+          32,
+          17
+        ]
+      },
+      {
+        "zone": "bottom-center",
+        "damage_type": "scratch",
+        "severity": 0.51,
+        "confidence": 0.65,
+        "bbox": [
+          574,
+          1099,
+          101,
+          23
+        ]
+      },
+      {
+        "zone": "bottom-right",
+        "damage_type": "scratch",
+        "severity": 0.58,
+        "confidence": 0.67,
+        "bbox": [
+          1100,
+          1085,
+          75,
+          24
+        ]
+      },
+      {
+        "zone": "bottom-left",
+        "damage_type": "dent",
+        "severity": 0.56,
+        "confidence": 0.67,
+        "bbox": [
+          448,
+          1081,
+          69,
+          24
+        ]
+      },
+      {
+        "zone": "center-left",
+        "damage_type": "dent",
+        "severity": 0.56,
+        "confidence": 0.67,
+        "bbox": [
+          188,
+          549,
+          69,
+          24
+        ]
+      },
+      {
+        "zone": "center-right",
+        "damage_type": "dent",
+        "severity": 0.56,
+        "confidence": 0.67,
+        "bbox": [
+          1244,
+          529,
+          69,
+          24
+        ]
+      },
+      {
+        "zone": "top-right",
+        "damage_type": "dent",
+        "severity": 0.54,
+        "confidence": 0.66,
+        "bbox": [
+          1174,
+          308,
+          69,
+          24
+        ]
+      },
+      {
+        "zone": "top-right",
+        "damage_type": "scratch",
+        "severity": 0.53,
+        "confidence": 0.66,
+        "bbox": [
+          1484,
+          148,
+          51,
+          11
+        ]
+      },
+      {
+        "zone": "top-left",
+        "damage_type": "scratch",
+        "severity": 0.53,
+        "confidence": 0.66,
+        "bbox": [
+          0,
+          102,
+          98,
+          12
+        ]
+      },
+      {
+        "zone": "top-right",
+        "damage_type": "dent",
+        "severity": 0.55,
+        "confidence": 0.66,
+        "bbox": [
+          1168,
+          71,
+          68,
+          24
+        ]
+      },
+      {
+        "zone": "top-left",
+        "damage_type": "dent",
+        "severity": 0.66,
+        "confidence": 0.7,
+        "bbox": [
+          281,
+          47,
+          78,
+          26
+        ]
+      }
+    ],
+    "defects": [
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-center",
+        "confidence": 0.6615969581749049,
+        "damage_type": "dent",
+        "severity": 0.5386565272496832
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-center",
+        "confidence": 0.6536021748980516,
+        "damage_type": "scratch",
+        "severity": 0.5120072496601722
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-right",
+        "confidence": 0.6727777777777778,
+        "damage_type": "scratch",
+        "severity": 0.575925925925926
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-left",
+        "confidence": 0.6668681983071343,
+        "damage_type": "dent",
+        "severity": 0.5562273276904475
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center-left",
+        "confidence": 0.6678743961352657,
+        "damage_type": "dent",
+        "severity": 0.5595813204508857
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center-right",
+        "confidence": 0.6675741076830006,
+        "damage_type": "dent",
+        "severity": 0.5585803589433354
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-right",
+        "confidence": 0.6634382566585957,
+        "damage_type": "dent",
+        "severity": 0.5447941888619855
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-right",
+        "confidence": 0.6590106007067138,
+        "damage_type": "scratch",
+        "severity": 0.5300353356890459
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.6581632653061225,
+        "damage_type": "scratch",
+        "severity": 0.5272108843537415
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-right",
+        "confidence": 0.6636029411764706,
+        "damage_type": "dent",
+        "severity": 0.545343137254902
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.6981132075471699,
+        "damage_type": "dent",
+        "severity": 0.6603773584905661
+      }
+    ],
+    "ground_truth": [
+      {
+        "component": "screw",
+        "type": "missing",
+        "location": "center-right"
+      },
+      {
+        "component": "tin",
+        "type": "missing",
+        "location": "right"
+      }
+    ]
+  },
+  {
+    "image": "IMG_5643_facade_segmented.jpg",
+    "tin_pixels": 361552,
+    "tin_coverage": 0.2075709141681364,
+    "zone_analysis": {
+      "top-left": {
+        "score": 1.0,
+        "factors": [
+          "high_edge_density:0.13",
+          "high_texture_var:1352",
+          "damage_regions:2"
+        ]
+      },
+      "top-center": {
+        "score": 1.0,
+        "factors": [
+          "high_edge_density:0.11",
+          "high_texture_var:1315",
+          "damage_regions:2"
+        ]
+      },
+      "top-right": {
+        "score": 0.6,
+        "factors": [
+          "high_edge_density:0.15",
+          "high_texture_var:1511"
+        ]
+      },
+      "center-left": {
+        "score": 0.6,
+        "factors": [
+          "high_edge_density:0.11",
+          "high_texture_var:1075"
+        ]
+      },
+      "center-right": {
+        "score": 0.7,
+        "factors": [
+          "high_texture_var:1021",
+          "damage_regions:2"
+        ]
+      },
+      "bottom-left": {
+        "score": 0.7,
+        "factors": [
+          "high_texture_var:565",
+          "damage_regions:2"
+        ]
+      },
+      "bottom-center": {
+        "score": 0.6000000000000001,
+        "factors": [
+          "damage_regions:7"
+        ]
+      },
+      "bottom-right": {
+        "score": 0.4,
+        "factors": [
+          "damage_regions:2"
+        ]
+      }
+    },
+    "damage_regions": [
+      {
+        "zone": "bottom-right",
+        "damage_type": "scratch",
+        "severity": 0.79,
+        "confidence": 0.74,
+        "bbox": [
+          1448,
+          1127,
+          56,
+          7
+        ]
+      },
+      {
+        "zone": "bottom-right",
+        "damage_type": "dent",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          1446,
+          1090,
+          26,
+          34
+        ]
+      },
+      {
+        "zone": "bottom-center",
+        "damage_type": "dent",
+        "severity": 0.57,
+        "confidence": 0.67,
+        "bbox": [
+          709,
+          1009,
+          69,
+          25
+        ]
+      },
+      {
+        "zone": "bottom-left",
+        "damage_type": "dent",
+        "severity": 0.81,
+        "confidence": 0.74,
+        "bbox": [
+          469,
+          916,
+          51,
+          31
+        ]
+      },
+      {
+        "zone": "bottom-center",
+        "damage_type": "scratch",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          536,
+          913,
+          70,
+          14
+        ]
+      },
+      {
+        "zone": "bottom-left",
+        "damage_type": "dent",
+        "severity": 0.93,
+        "confidence": 0.78,
+        "bbox": [
+          398,
+          912,
+          45,
+          34
+        ]
+      },
+      {
+        "zone": "bottom-center",
+        "damage_type": "dent",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          761,
+          911,
+          26,
+          21
+        ]
+      },
+      {
+        "zone": "bottom-center",
+        "damage_type": "dent",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          647,
+          910,
+          47,
+          21
+        ]
+      },
+      {
+        "zone": "bottom-center",
+        "damage_type": "dent",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          622,
+          910,
+          24,
+          17
+        ]
+      },
+      {
+        "zone": "bottom-center",
+        "damage_type": "dent",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          898,
+          909,
+          38,
+          19
+        ]
+      },
+      {
+        "zone": "bottom-center",
+        "damage_type": "scratch",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          815,
+          903,
+          54,
+          16
+        ]
+      },
+      {
+        "zone": "center-right",
+        "damage_type": "dent",
+        "severity": 0.83,
+        "confidence": 0.75,
+        "bbox": [
+          1518,
+          702,
+          18,
+          22
+        ]
+      },
+      {
+        "zone": "center-right",
+        "damage_type": "dent",
+        "severity": 0.97,
+        "confidence": 0.79,
+        "bbox": [
+          1356,
+          699,
+          28,
+          34
+        ]
+      },
+      {
+        "zone": "top-center",
+        "damage_type": "scratch",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          731,
+          257,
+          36,
+          11
+        ]
+      },
+      {
+        "zone": "top-center",
+        "damage_type": "scratch",
+        "severity": 0.61,
+        "confidence": 0.68,
+        "bbox": [
+          592,
+          251,
+          29,
+          9
+        ]
+      },
+      {
+        "zone": "top-left",
+        "damage_type": "dent",
+        "severity": 0.86,
+        "confidence": 0.76,
+        "bbox": [
+          343,
+          237,
+          29,
+          14
+        ]
+      },
+      {
+        "zone": "top-left",
+        "damage_type": "scratch",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          296,
+          236,
+          37,
+          10
+        ]
+      }
+    ],
+    "defects": [
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-right",
+        "confidence": 0.7357723577235773,
+        "damage_type": "scratch",
+        "severity": 0.7859078590785908
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "damage_type": "dent",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-center",
+        "confidence": 0.6716937354988399,
+        "damage_type": "dent",
+        "severity": 0.5723124516627996
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-left",
+        "confidence": 0.742914979757085,
+        "damage_type": "dent",
+        "severity": 0.8097165991902834
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "damage_type": "scratch",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-left",
+        "confidence": 0.7786069651741294,
+        "damage_type": "dent",
+        "severity": 0.9286898839137646
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "damage_type": "dent",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "damage_type": "dent",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "damage_type": "dent",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "damage_type": "dent",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "damage_type": "scratch",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center-right",
+        "confidence": 0.75,
+        "damage_type": "dent",
+        "severity": 0.8333333333333334
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center-right",
+        "confidence": 0.7909090909090909,
+        "damage_type": "dent",
+        "severity": 0.9696969696969697
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-center",
+        "confidence": 0.8,
+        "damage_type": "scratch",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-center",
+        "confidence": 0.6818181818181819,
+        "damage_type": "scratch",
+        "severity": 0.6060606060606061
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.7567567567567568,
+        "damage_type": "dent",
+        "severity": 0.8558558558558559
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.8,
+        "damage_type": "scratch",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-right",
+        "confidence": 0.6,
+        "damage_type": "surface_anomaly",
+        "factors": [
+          "high_edge_density:0.15",
+          "high_texture_var:1511"
+        ]
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center-left",
+        "confidence": 0.6,
+        "damage_type": "surface_anomaly",
+        "factors": [
+          "high_edge_density:0.11",
+          "high_texture_var:1075"
+        ]
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "image": "IMG_5662_facade_segmented.jpg",
+    "tin_pixels": 664384,
+    "tin_coverage": 0.49320600532117065,
+    "zone_analysis": {
+      "top-left": {
+        "score": 0.5,
+        "factors": [
+          "high_texture_var:756",
+          "damage_regions:1"
+        ]
+      },
+      "top-center": {
+        "score": 0.6000000000000001,
+        "factors": [
+          "damage_regions:3"
+        ]
+      },
+      "top-right": {
+        "score": 0.7,
+        "factors": [
+          "high_texture_var:532",
+          "damage_regions:2"
+        ]
+      },
+      "center-left": {
+        "score": 0.5,
+        "factors": [
+          "high_texture_var:517",
+          "damage_regions:1"
+        ]
+      },
+      "bottom-left": {
+        "score": 0.5,
+        "factors": [
+          "high_texture_var:829",
+          "damage_regions:1"
+        ]
+      },
+      "bottom-center": {
+        "score": 0.3,
+        "factors": [
+          "high_texture_var:592"
+        ]
+      },
+      "bottom-right": {
+        "score": 0.6,
+        "factors": [
+          "high_edge_density:0.15",
+          "high_texture_var:1971"
+        ]
+      }
+    },
+    "damage_regions": [
+      {
+        "zone": "bottom-left",
+        "damage_type": "dent",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          343,
+          644,
+          25,
+          17
+        ]
+      },
+      {
+        "zone": "center-left",
+        "damage_type": "dent",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          133,
+          332,
+          25,
+          15
+        ]
+      },
+      {
+        "zone": "top-right",
+        "damage_type": "dent",
+        "severity": 0.99,
+        "confidence": 0.8,
+        "bbox": [
+          1227,
+          187,
+          21,
+          16
+        ]
+      },
+      {
+        "zone": "top-right",
+        "damage_type": "dent",
+        "severity": 0.76,
+        "confidence": 0.73,
+        "bbox": [
+          1265,
+          145,
+          30,
+          15
+        ]
+      },
+      {
+        "zone": "top-center",
+        "damage_type": "dent",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          751,
+          29,
+          66,
+          23
+        ]
+      },
+      {
+        "zone": "top-left",
+        "damage_type": "dent",
+        "severity": 0.59,
+        "confidence": 0.68,
+        "bbox": [
+          0,
+          27,
+          42,
+          33
+        ]
+      },
+      {
+        "zone": "top-center",
+        "damage_type": "scratch",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          547,
+          12,
+          88,
+          19
+        ]
+      },
+      {
+        "zone": "top-center",
+        "damage_type": "scratch",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          655,
+          9,
+          83,
+          26
+        ]
+      }
+    ],
+    "defects": [
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "damage_type": "dent",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center-left",
+        "confidence": 0.8,
+        "damage_type": "dent",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-right",
+        "confidence": 0.7962962962962963,
+        "damage_type": "dent",
+        "severity": 0.9876543209876543
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-right",
+        "confidence": 0.7278481012658228,
+        "damage_type": "dent",
+        "severity": 0.759493670886076
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-center",
+        "confidence": 0.8,
+        "damage_type": "dent",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.6777456647398844,
+        "damage_type": "dent",
+        "severity": 0.592485549132948
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-center",
+        "confidence": 0.8,
+        "damage_type": "scratch",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-center",
+        "confidence": 0.8,
+        "damage_type": "scratch",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-right",
+        "confidence": 0.6,
+        "damage_type": "surface_anomaly",
+        "factors": [
+          "high_edge_density:0.15",
+          "high_texture_var:1971"
+        ]
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "image": "IMG_5665_facade_segmented.jpg",
+    "tin_pixels": 909704,
+    "tin_coverage": 0.7772378062117236,
+    "zone_analysis": {
+      "top-left": {
+        "score": 0.4,
+        "factors": [
+          "damage_regions:2"
+        ]
+      },
+      "top-center": {
+        "score": 0.6000000000000001,
+        "factors": [
+          "damage_regions:3"
+        ]
+      },
+      "top-right": {
+        "score": 0.2,
+        "factors": [
+          "damage_regions:1"
+        ]
+      },
+      "center": {
+        "score": 0.2,
+        "factors": [
+          "damage_regions:1"
+        ]
+      },
+      "bottom-left": {
+        "score": 0.5,
+        "factors": [
+          "high_texture_var:880",
+          "damage_regions:1"
+        ]
+      },
+      "bottom-center": {
+        "score": 0.9000000000000001,
+        "factors": [
+          "high_texture_var:518",
+          "damage_regions:3"
+        ]
+      },
+      "bottom-right": {
+        "score": 0.2,
+        "factors": [
+          "damage_regions:1"
+        ]
+      }
+    },
+    "damage_regions": [
+      {
+        "zone": "bottom-center",
+        "damage_type": "dent",
+        "severity": 0.6,
+        "confidence": 0.68,
+        "bbox": [
+          712,
+          748,
+          22,
+          14
+        ]
+      },
+      {
+        "zone": "bottom-center",
+        "damage_type": "dent",
+        "severity": 0.58,
+        "confidence": 0.68,
+        "bbox": [
+          736,
+          747,
+          39,
+          15
+        ]
+      },
+      {
+        "zone": "bottom-center",
+        "damage_type": "dent",
+        "severity": 0.59,
+        "confidence": 0.68,
+        "bbox": [
+          934,
+          725,
+          69,
+          24
+        ]
+      },
+      {
+        "zone": "bottom-left",
+        "damage_type": "dent",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          197,
+          691,
+          28,
+          26
+        ]
+      },
+      {
+        "zone": "bottom-right",
+        "damage_type": "dent",
+        "severity": 0.57,
+        "confidence": 0.67,
+        "bbox": [
+          987,
+          576,
+          69,
+          24
+        ]
+      },
+      {
+        "zone": "center",
+        "damage_type": "dent",
+        "severity": 0.58,
+        "confidence": 0.68,
+        "bbox": [
+          618,
+          385,
+          69,
+          24
+        ]
+      },
+      {
+        "zone": "top-left",
+        "damage_type": "dent",
+        "severity": 0.63,
+        "confidence": 0.69,
+        "bbox": [
+          29,
+          204,
+          70,
+          26
+        ]
+      },
+      {
+        "zone": "top-right",
+        "damage_type": "dent",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          1265,
+          143,
+          16,
+          17
+        ]
+      },
+      {
+        "zone": "top-left",
+        "damage_type": "scratch",
+        "severity": 0.7,
+        "confidence": 0.71,
+        "bbox": [
+          0,
+          7,
+          397,
+          132
+        ]
+      },
+      {
+        "zone": "top-center",
+        "damage_type": "dent",
+        "severity": 0.75,
+        "confidence": 0.73,
+        "bbox": [
+          662,
+          1,
+          39,
+          19
+        ]
+      },
+      {
+        "zone": "top-center",
+        "damage_type": "dent",
+        "severity": 0.88,
+        "confidence": 0.76,
+        "bbox": [
+          617,
+          0,
+          28,
+          13
+        ]
+      },
+      {
+        "zone": "top-center",
+        "damage_type": "scratch",
+        "severity": 0.7,
+        "confidence": 0.71,
+        "bbox": [
+          478,
+          0,
+          145,
+          37
+        ]
+      }
+    ],
+    "defects": [
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-center",
+        "confidence": 0.6794871794871795,
+        "damage_type": "dent",
+        "severity": 0.5982905982905983
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-center",
+        "confidence": 0.6751824817518248,
+        "damage_type": "dent",
+        "severity": 0.5839416058394161
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-center",
+        "confidence": 0.6758308157099697,
+        "damage_type": "dent",
+        "severity": 0.5861027190332326
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "damage_type": "dent",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-right",
+        "confidence": 0.6708937198067633,
+        "damage_type": "dent",
+        "severity": 0.569645732689211
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center",
+        "confidence": 0.6752891052951917,
+        "damage_type": "dent",
+        "severity": 0.5842970176506391
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.6904497501388118,
+        "damage_type": "dent",
+        "severity": 0.6348325004627059
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-right",
+        "confidence": 0.8,
+        "damage_type": "dent",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.7107438016528925,
+        "damage_type": "scratch",
+        "severity": 0.7024793388429752
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-center",
+        "confidence": 0.7253521126760564,
+        "damage_type": "dent",
+        "severity": 0.7511737089201879
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-center",
+        "confidence": 0.764,
+        "damage_type": "dent",
+        "severity": 0.8800000000000001
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-center",
+        "confidence": 0.7088888888888889,
+        "damage_type": "scratch",
+        "severity": 0.6962962962962964
+      }
+    ],
+    "ground_truth": null
+  },
+  {
+    "image": "IMG_5686_facade_segmented.jpg",
+    "tin_pixels": 1257765,
+    "tin_coverage": 0.6968999335106383,
+    "zone_analysis": {
+      "top-left": {
+        "score": 0.2,
+        "factors": [
+          "damage_regions:1"
+        ]
+      },
+      "center-right": {
+        "score": 0.2,
+        "factors": [
+          "damage_regions:1"
+        ]
+      },
+      "bottom-left": {
+        "score": 0.2,
+        "factors": [
+          "damage_regions:1"
+        ]
+      },
+      "bottom-center": {
+        "score": 0.3,
+        "factors": [
+          "high_texture_var:568"
+        ]
+      },
+      "bottom-right": {
+        "score": 0.3,
+        "factors": [
+          "high_texture_var:855"
+        ]
+      }
+    },
+    "damage_regions": [
+      {
+        "zone": "bottom-left",
+        "damage_type": "dent",
+        "severity": 1.0,
+        "confidence": 0.8,
+        "bbox": [
+          0,
+          1106,
+          76,
+          44
+        ]
+      },
+      {
+        "zone": "center-right",
+        "damage_type": "dent",
+        "severity": 0.83,
+        "confidence": 0.75,
+        "bbox": [
+          1423,
+          673,
+          29,
+          21
+        ]
+      },
+      {
+        "zone": "top-left",
+        "damage_type": "dent",
+        "severity": 0.63,
+        "confidence": 0.69,
+        "bbox": [
+          336,
+          84,
+          70,
+          24
+        ]
+      }
+    ],
+    "defects": [
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "damage_type": "dent",
+        "severity": 1.0
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center-right",
+        "confidence": 0.75,
+        "damage_type": "dent",
+        "severity": 0.8333333333333334
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.6885991510006064,
+        "damage_type": "dent",
+        "severity": 0.6286638366686881
+      }
+    ],
+    "ground_truth": null
+  }
+]

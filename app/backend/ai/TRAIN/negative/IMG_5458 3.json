@@ -1,0 +1,6 @@
+{
+    "image": "IMG_5458 3.HEIC",
+    "defects": [
+        {"component": "tin", "type": "missing", "location": "center"}
+    ]
+}

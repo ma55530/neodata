@@ -1,0 +1,302 @@
+[
+  {
+    "image": "IMG_5470_3_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.643,
+    "features": {
+      "filename": "IMG_5470_3_segmented.jpg",
+      "resolution": "1536x1152",
+      "aspect_ratio": 1.333,
+      "screw_count": 8,
+      "hole_count": 111
+    }
+  },
+  {
+    "image": "IMG_5478_3_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.76,
+    "features": {
+      "filename": "IMG_5478_3_segmented.jpg",
+      "resolution": "1536x1152",
+      "aspect_ratio": 1.333,
+      "screw_count": 11,
+      "hole_count": 31
+    }
+  },
+  {
+    "image": "IMG_5653_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.704,
+    "features": {
+      "filename": "IMG_5653_segmented.jpg",
+      "resolution": "1536x1152",
+      "aspect_ratio": 1.333,
+      "screw_count": 55,
+      "hole_count": 272
+    }
+  },
+  {
+    "image": "IMG_5658_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.73,
+    "features": {
+      "filename": "IMG_5658_segmented.jpg",
+      "resolution": "1536x1152",
+      "aspect_ratio": 1.333,
+      "screw_count": 31,
+      "hole_count": 116
+    }
+  },
+  {
+    "image": "IMG_5659_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.726,
+    "features": {
+      "filename": "IMG_5659_segmented.jpg",
+      "resolution": "1536x1152",
+      "aspect_ratio": 1.333,
+      "screw_count": 23,
+      "hole_count": 89
+    }
+  },
+  {
+    "image": "IMG_5672_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.781,
+    "features": {
+      "filename": "IMG_5672_segmented.jpg",
+      "resolution": "1536x1152",
+      "aspect_ratio": 1.333,
+      "screw_count": 60,
+      "hole_count": 142
+    }
+  },
+  {
+    "image": "IMG_5675_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.785,
+    "features": {
+      "filename": "IMG_5675_segmented.jpg",
+      "resolution": "1536x1152",
+      "aspect_ratio": 1.333,
+      "screw_count": 69,
+      "hole_count": 158
+    }
+  },
+  {
+    "image": "IMG_5678_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.776,
+    "features": {
+      "filename": "IMG_5678_segmented.jpg",
+      "resolution": "1536x1152",
+      "aspect_ratio": 1.333,
+      "screw_count": 69,
+      "hole_count": 170
+    }
+  },
+  {
+    "image": "IMG_5679_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.768,
+    "features": {
+      "filename": "IMG_5679_segmented.jpg",
+      "resolution": "1536x1152",
+      "aspect_ratio": 1.333,
+      "screw_count": 95,
+      "hole_count": 250
+    }
+  },
+  {
+    "image": "IMG_5681_segmented.jpg",
+    "matched_model": "1039-1-CWQ4946-4GT2-4000-4_01.STP",
+    "confidence": 0.749,
+    "features": {
+      "filename": "IMG_5681_segmented.jpg",
+      "resolution": "1536x1152",
+      "aspect_ratio": 1.333,
+      "screw_count": 18,
+      "hole_count": 16
+    }
+  },
+  {
+    "image": "IMG_5700_segmented.jpg",
+    "matched_model": "1039-1-CWQ4946-4GT2-4000-4_01.STP",
+    "confidence": 0.751,
+    "features": {
+      "filename": "IMG_5700_segmented.jpg",
+      "resolution": "1536x1152",
+      "aspect_ratio": 1.333,
+      "screw_count": 125,
+      "hole_count": 113
+    }
+  },
+  {
+    "image": "IMG_5701_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.733,
+    "features": {
+      "filename": "IMG_5701_segmented.jpg",
+      "resolution": "1536x1152",
+      "aspect_ratio": 1.333,
+      "screw_count": 60,
+      "hole_count": 216
+    }
+  },
+  {
+    "image": "IMG_5350_2_facade_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.515,
+    "features": {
+      "filename": "IMG_5350_2_facade_segmented.jpg",
+      "resolution": "1535x409",
+      "aspect_ratio": 3.753,
+      "screw_count": 2,
+      "hole_count": 30
+    }
+  },
+  {
+    "image": "IMG_5356_2_facade_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.679,
+    "features": {
+      "filename": "IMG_5356_2_facade_segmented.jpg",
+      "resolution": "1536x736",
+      "aspect_ratio": 2.087,
+      "screw_count": 38,
+      "hole_count": 118
+    }
+  },
+  {
+    "image": "IMG_5373_2_facade_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.56,
+    "features": {
+      "filename": "IMG_5373_2_facade_segmented.jpg",
+      "resolution": "1536x339",
+      "aspect_ratio": 4.531,
+      "screw_count": 19,
+      "hole_count": 102
+    }
+  },
+  {
+    "image": "IMG_5401_2_facade_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.664,
+    "features": {
+      "filename": "IMG_5401_2_facade_segmented.jpg",
+      "resolution": "1536x1017",
+      "aspect_ratio": 1.51,
+      "screw_count": 27,
+      "hole_count": 166
+    }
+  },
+  {
+    "image": "IMG_5456_3_facade_segmented.jpg",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.655,
+    "features": {
+      "filename": "IMG_5456_3_facade_segmented.jpg",
+      "resolution": "1536x736",
+      "aspect_ratio": 2.087,
+      "screw_count": 45,
+      "hole_count": 30
+    }
+  },
+  {
+    "image": "IMG_5458_3_facade_segmented.jpg",
+    "matched_model": "1039-1-CWQ4946-4GT2-4000-4_01.STP",
+    "confidence": 0.495,
+    "features": {
+      "filename": "IMG_5458_3_facade_segmented.jpg",
+      "resolution": "1536x1054",
+      "aspect_ratio": 1.457,
+      "screw_count": 53,
+      "hole_count": 4
+    }
+  },
+  {
+    "image": "IMG_5462_3_facade_segmented.jpg",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "confidence": 0.633,
+    "features": {
+      "filename": "IMG_5462_3_facade_segmented.jpg",
+      "resolution": "1536x822",
+      "aspect_ratio": 1.869,
+      "screw_count": 73,
+      "hole_count": 39
+    }
+  },
+  {
+    "image": "IMG_5464_3_facade_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.735,
+    "features": {
+      "filename": "IMG_5464_3_facade_segmented.jpg",
+      "resolution": "1536x805",
+      "aspect_ratio": 1.908,
+      "screw_count": 27,
+      "hole_count": 57
+    }
+  },
+  {
+    "image": "IMG_5491_3_facade_segmented.jpg",
+    "matched_model": "1039-1-CWQ4946-4GT2-4000-4_01.STP",
+    "confidence": 0.742,
+    "features": {
+      "filename": "IMG_5491_3_facade_segmented.jpg",
+      "resolution": "1536x1122",
+      "aspect_ratio": 1.369,
+      "screw_count": 16,
+      "hole_count": 14
+    }
+  },
+  {
+    "image": "IMG_5643_facade_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.638,
+    "features": {
+      "filename": "IMG_5643_facade_segmented.jpg",
+      "resolution": "1536x1134",
+      "aspect_ratio": 1.354,
+      "screw_count": 6,
+      "hole_count": 88
+    }
+  },
+  {
+    "image": "IMG_5662_facade_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.732,
+    "features": {
+      "filename": "IMG_5662_facade_segmented.jpg",
+      "resolution": "1536x877",
+      "aspect_ratio": 1.751,
+      "screw_count": 95,
+      "hole_count": 178
+    }
+  },
+  {
+    "image": "IMG_5665_facade_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.651,
+    "features": {
+      "filename": "IMG_5665_facade_segmented.jpg",
+      "resolution": "1536x762",
+      "aspect_ratio": 2.016,
+      "screw_count": 39,
+      "hole_count": 166
+    }
+  },
+  {
+    "image": "IMG_5686_facade_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "confidence": 0.767,
+    "features": {
+      "filename": "IMG_5686_facade_segmented.jpg",
+      "resolution": "1536x1175",
+      "aspect_ratio": 1.307,
+      "screw_count": 44,
+      "hole_count": 121
+    }
+  }
+]

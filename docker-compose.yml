@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./app/backend
+    ports:
+      - "8000:8000"
+    volumes:
+      # Mount the ai folder to persist data or allow hot-reloading of static JSONs
+      - ./app/backend/ai:/app/ai
+    environment:
+      - PORT=8000
+
+  frontend:
+    build: ./app/ai-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend

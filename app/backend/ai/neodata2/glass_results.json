@@ -1,0 +1,621 @@
+[
+  {
+    "image": "IMG_5346_2_facade_segmented.jpg",
+    "glass_pixels": 285002,
+    "glass_coverage": 0.21351919112006137,
+    "cracks_found": 406,
+    "damages_found": 18,
+    "defects": [
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "bottom-center",
+        "confidence": 0.9,
+        "details": "length: 226px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "bottom-right",
+        "confidence": 0.9,
+        "details": "length: 47px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "bottom-left",
+        "confidence": 0.9,
+        "details": "length: 54px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "top-center",
+        "confidence": 0.9,
+        "details": "length: 225px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "center",
+        "confidence": 0.9,
+        "details": "length: 104px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "center-left",
+        "confidence": 0.9,
+        "details": "length: 128px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "top-right",
+        "confidence": 0.8577708763999663,
+        "details": "length: 36px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "center-right",
+        "confidence": 0.9,
+        "details": "length: 96px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "top-left",
+        "confidence": 0.824499614791759,
+        "details": "length: 32px"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "bottom-left",
+        "confidence": 0.6965,
+        "details": "area: 196px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "bottom-right",
+        "confidence": 0.648,
+        "details": "area: 148px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "center-left",
+        "confidence": 0.85,
+        "details": "area: 1647px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "center",
+        "confidence": 0.7905,
+        "details": "area: 290px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "top-center",
+        "confidence": 0.85,
+        "details": "area: 1703px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "missing",
+        "location": "bottom-left",
+        "confidence": 0.7,
+        "details": "coverage: 3.9%"
+      }
+    ]
+  },
+  {
+    "image": "IMG_5349_2_facade_segmented.jpg",
+    "glass_pixels": 445530,
+    "glass_coverage": 0.4215967932412791,
+    "cracks_found": 1675,
+    "damages_found": 38,
+    "defects": [
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "center-right",
+        "confidence": 0.77,
+        "details": "length: 27px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "bottom-right",
+        "confidence": 0.79,
+        "details": "length: 29px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "bottom-center",
+        "confidence": 0.9,
+        "details": "length: 59px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "bottom-left",
+        "confidence": 0.8200000000000001,
+        "details": "length: 32px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "center-left",
+        "confidence": 0.9,
+        "details": "length: 48px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "center",
+        "confidence": 0.9,
+        "details": "length: 44px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "top-left",
+        "confidence": 0.9,
+        "details": "length: 112px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "top-center",
+        "confidence": 0.9,
+        "details": "length: 66px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "top-right",
+        "confidence": 0.9,
+        "details": "length: 41px"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "bottom-center",
+        "confidence": 0.752,
+        "details": "area: 252px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "bottom-left",
+        "confidence": 0.85,
+        "details": "area: 422px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "bottom-right",
+        "confidence": 0.6925,
+        "details": "area: 192px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "center-left",
+        "confidence": 0.6015,
+        "details": "area: 102px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "center",
+        "confidence": 0.601,
+        "details": "area: 101px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "center-right",
+        "confidence": 0.627,
+        "details": "area: 127px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.6759999999999999,
+        "details": "area: 176px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "top-center",
+        "confidence": 0.85,
+        "details": "area: 440px\u00b2"
+      }
+    ]
+  },
+  {
+    "image": "IMG_5350_2_facade_segmented.jpg",
+    "glass_pixels": 71928,
+    "glass_coverage": 0.11456878220494891,
+    "cracks_found": 493,
+    "damages_found": 9,
+    "defects": [
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "top-right",
+        "confidence": 0.9,
+        "details": "length: 257px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "top-left",
+        "confidence": 0.9,
+        "details": "length: 71px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "top-center",
+        "confidence": 0.9,
+        "details": "length: 92px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "bottom-right",
+        "confidence": 0.9,
+        "details": "length: 92px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "bottom-center",
+        "confidence": 0.9,
+        "details": "length: 83px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "bottom-left",
+        "confidence": 0.81,
+        "details": "length: 31px"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "bottom-center",
+        "confidence": 0.761,
+        "details": "area: 261px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "bottom-right",
+        "confidence": 0.627,
+        "details": "area: 127px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "top-right",
+        "confidence": 0.732,
+        "details": "area: 232px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.7585,
+        "details": "area: 258px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "top-center",
+        "confidence": 0.751,
+        "details": "area: 251px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "missing",
+        "location": "center-left",
+        "confidence": 0.7,
+        "details": "coverage: 0.0%"
+      },
+      {
+        "component": "glass",
+        "type": "missing",
+        "location": "center",
+        "confidence": 0.7,
+        "details": "coverage: 0.0%"
+      },
+      {
+        "component": "glass",
+        "type": "missing",
+        "location": "center-right",
+        "confidence": 0.7,
+        "details": "coverage: 0.0%"
+      },
+      {
+        "component": "glass",
+        "type": "missing",
+        "location": "bottom-left",
+        "confidence": 0.7,
+        "details": "coverage: 0.7%"
+      }
+    ]
+  },
+  {
+    "image": "IMG_5354_2_facade_segmented.jpg",
+    "glass_pixels": 494728,
+    "glass_coverage": 0.34033618937223326,
+    "cracks_found": 614,
+    "damages_found": 31,
+    "defects": [
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "top-center",
+        "confidence": 0.9,
+        "details": "length: 45px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "center",
+        "confidence": 0.9,
+        "details": "length: 88px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "center-right",
+        "confidence": 0.9,
+        "details": "length: 152px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "top-left",
+        "confidence": 0.7692582403567252,
+        "details": "length: 27px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "top-right",
+        "confidence": 0.75,
+        "details": "length: 25px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "center-left",
+        "confidence": 0.9,
+        "details": "length: 40px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "bottom-right",
+        "confidence": 0.9,
+        "details": "length: 150px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "bottom-center",
+        "confidence": 0.7778488797889961,
+        "details": "length: 28px"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "bottom-center",
+        "confidence": 0.6275,
+        "details": "area: 128px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "bottom-right",
+        "confidence": 0.85,
+        "details": "area: 1890px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "center",
+        "confidence": 0.6705,
+        "details": "area: 170px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "center-right",
+        "confidence": 0.85,
+        "details": "area: 1549px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.85,
+        "details": "area: 602px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "top-center",
+        "confidence": 0.85,
+        "details": "area: 854px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "top-right",
+        "confidence": 0.85,
+        "details": "area: 1504px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "missing",
+        "location": "bottom-left",
+        "confidence": 0.7,
+        "details": "coverage: 0.0%"
+      },
+      {
+        "component": "glass",
+        "type": "missing",
+        "location": "bottom-center",
+        "confidence": 0.7,
+        "details": "coverage: 4.0%"
+      }
+    ]
+  },
+  {
+    "image": "IMG_5356_2_facade_segmented.jpg",
+    "glass_pixels": 352496,
+    "glass_coverage": 0.3118064990942029,
+    "cracks_found": 594,
+    "damages_found": 39,
+    "defects": [
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "bottom-center",
+        "confidence": 0.9,
+        "details": "length: 97px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "bottom-right",
+        "confidence": 0.9,
+        "details": "length: 176px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "top-right",
+        "confidence": 0.72,
+        "details": "length: 22px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "bottom-left",
+        "confidence": 0.9,
+        "details": "length: 150px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "top-left",
+        "confidence": 0.9,
+        "details": "length: 61px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "top-center",
+        "confidence": 0.9,
+        "details": "length: 126px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "center",
+        "confidence": 0.9,
+        "details": "length: 93px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "center-left",
+        "confidence": 0.7302172886644267,
+        "details": "length: 23px"
+      },
+      {
+        "component": "glass",
+        "type": "crack",
+        "location": "center-right",
+        "confidence": 0.8001666203960727,
+        "details": "length: 30px"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "bottom-left",
+        "confidence": 0.85,
+        "details": "area: 694px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "bottom-center",
+        "confidence": 0.653,
+        "details": "area: 153px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "bottom-right",
+        "confidence": 0.6415,
+        "details": "area: 142px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "center",
+        "confidence": 0.621,
+        "details": "area: 121px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "center-left",
+        "confidence": 0.6345000000000001,
+        "details": "area: 134px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "center-right",
+        "confidence": 0.629,
+        "details": "area: 129px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "top-right",
+        "confidence": 0.6194999999999999,
+        "details": "area: 120px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "top-center",
+        "confidence": 0.641,
+        "details": "area: 141px\u00b2"
+      },
+      {
+        "component": "glass",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.6719999999999999,
+        "details": "area: 172px\u00b2"
+      }
+    ]
+  }
+]

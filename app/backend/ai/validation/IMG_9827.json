@@ -1,0 +1,6 @@
+{
+    "image": "IMG_9827.png",
+    "defects": [
+        {"component": "glass", "type": "cracked", "location": "center"}
+    ]
+}

@@ -1,0 +1,2483 @@
+[
+  {
+    "image": "IMG_5346_2_facade_segmented.jpg",
+    "screws_detected": 96,
+    "holes_detected": 4,
+    "half_tightened_screws": 94,
+    "defects": [
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          454.0,
+          861.7
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          494.1,
+          858.8
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          477.2,
+          855.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          270.8,
+          848.1
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          294.2,
+          842.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1303.8,
+          815.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1326.2,
+          810.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          176.5,
+          783.1
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          224.2,
+          777.3
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          199.2,
+          774.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1397.6,
+          755.6
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1421.2,
+          750.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1213.8,
+          752.2
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1237.2,
+          747.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1041.2,
+          748.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1064.2,
+          744.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          880.4,
+          745.1
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          928.3,
+          740.7
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          903.2,
+          740.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          729.2,
+          741.3
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          609.0,
+          739.8
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          777.3,
+          736.7
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          752.2,
+          736.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          632.2,
+          735.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          474.4,
+          736.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          346.4,
+          735.0
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          497.2,
+          732.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          369.2,
+          730.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          225.0,
+          731.7
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          273.2,
+          727.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          248.2,
+          727.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          111.7,
+          728.3
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1387.4,
+          728.4
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1206.9,
+          726.2
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          160.1,
+          723.2
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          135.2,
+          724.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1436.5,
+          727.0
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1410.2,
+          723.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1230.2,
+          721.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          848.9,
+          724.8
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          879.1,
+          720.8
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          730.0,
+          718.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          902.1,
+          716.8
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          612.0,
+          717.1
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          778.3,
+          714.7
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          753.2,
+          714.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          479.5,
+          714.5
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          660.2,
+          712.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          635.2,
+          712.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          355.1,
+          712.6
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          503.2,
+          710.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          235.3,
+          710.7
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          377.2,
+          708.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          121.0,
+          709.2
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          283.2,
+          707.2
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          258.2,
+          706.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          144.2,
+          704.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          180.9,
+          639.0
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1365.0,
+          624.1
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center",
+        "confidence": 0.6856316582782138,
+        "position": [
+          689.6,
+          555.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          275.3,
+          469.8
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          293.1,
+          449.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          381.1,
+          446.5
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          341.1,
+          444.1
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          316.2,
+          445.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          471.8,
+          442.4
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center",
+        "confidence": 0.8,
+        "position": [
+          511.6,
+          441.0
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          495.2,
+          437.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center",
+        "confidence": 0.8,
+        "position": [
+          567.6,
+          437.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center",
+        "confidence": 0.8,
+        "position": [
+          590.2,
+          433.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center",
+        "confidence": 0.8,
+        "position": [
+          667.6,
+          431.3
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center",
+        "confidence": 0.8,
+        "position": [
+          760.6,
+          431.5
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center",
+        "confidence": 0.8,
+        "position": [
+          783.2,
+          425.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center",
+        "confidence": 0.8,
+        "position": [
+          869.7,
+          425.1
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center",
+        "confidence": 0.8,
+        "position": [
+          893.2,
+          420.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center",
+        "confidence": 0.8,
+        "position": [
+          983.6,
+          419.8
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center",
+        "confidence": 0.8,
+        "position": [
+          1006.2,
+          415.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-right",
+        "confidence": 0.8,
+        "position": [
+          1101.2,
+          414.6
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-right",
+        "confidence": 0.8,
+        "position": [
+          1124.2,
+          409.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-right",
+        "confidence": 0.8,
+        "position": [
+          1225.2,
+          409.4
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-right",
+        "confidence": 0.8,
+        "position": [
+          1248.2,
+          404.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-right",
+        "confidence": 0.8,
+        "position": [
+          1355.4,
+          222.6
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-right",
+        "confidence": 0.8,
+        "position": [
+          1383.4,
+          225.6
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-right",
+        "confidence": 0.8,
+        "position": [
+          1430.2,
+          221.2
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-right",
+        "confidence": 0.8,
+        "position": [
+          1405.2,
+          220.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-left",
+        "confidence": 0.8,
+        "position": [
+          213.4,
+          179.3
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-left",
+        "confidence": 0.8,
+        "position": [
+          187.8,
+          175.4
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-left",
+        "confidence": 0.8,
+        "position": [
+          237.2,
+          173.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-left",
+        "confidence": 0.8,
+        "position": [
+          307.2,
+          162.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-left",
+        "confidence": 0.8,
+        "position": [
+          282.2,
+          162.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-left",
+        "confidence": 0.8,
+        "position": [
+          264.0,
+          157.4
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-right",
+        "confidence": 0.8,
+        "position": [
+          1384.6,
+          95.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-right",
+        "confidence": 0.8,
+        "position": [
+          1434.0,
+          90.1
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-right",
+        "confidence": 0.8,
+        "position": [
+          1408.2,
+          90.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "missing",
+        "location": "top-left",
+        "confidence": 0.6,
+        "details": "expected ~143, found 7"
+      },
+      {
+        "component": "hole",
+        "type": "missing",
+        "location": "top-left",
+        "confidence": 0.6,
+        "details": "expected ~8, found 1"
+      },
+      {
+        "component": "screw",
+        "type": "missing",
+        "location": "top-center",
+        "confidence": 0.6,
+        "details": "expected ~11, found 0"
+      }
+    ]
+  },
+  {
+    "image": "IMG_5349_2_facade_segmented.jpg",
+    "screws_detected": 49,
+    "holes_detected": 45,
+    "half_tightened_screws": 24,
+    "defects": [
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1228.3,
+          573.7
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1281.3,
+          541.7
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-right",
+        "confidence": 0.8,
+        "position": [
+          1518.6,
+          420.1
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center",
+        "confidence": 0.8,
+        "position": [
+          718.3,
+          376.7
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          3.3,
+          353.6
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          109.0,
+          266.7
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          132.2,
+          262.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          711.0,
+          189.7
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          613.3,
+          182.7
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-left",
+        "confidence": 0.8,
+        "position": [
+          346.3,
+          177.7
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-left",
+        "confidence": 0.8,
+        "position": [
+          321.2,
+          177.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-left",
+        "confidence": 0.8,
+        "position": [
+          254.5,
+          180.2
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-left",
+        "confidence": 0.8,
+        "position": [
+          297.9,
+          183.8
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-right",
+        "confidence": 0.8,
+        "position": [
+          1261.8,
+          133.4
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-right",
+        "confidence": 0.8,
+        "position": [
+          1288.4,
+          135.3
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-right",
+        "confidence": 0.8,
+        "position": [
+          1326.0,
+          132.4
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-right",
+        "confidence": 0.8,
+        "position": [
+          1311.5,
+          131.6
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-left",
+        "confidence": 0.8,
+        "position": [
+          491.9,
+          126.4
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-left",
+        "confidence": 0.8,
+        "position": [
+          457.4,
+          97.0
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          554.7,
+          59.5
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          633.5,
+          53.2
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          635.8,
+          31.5
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          683.2,
+          27.1
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          658.2,
+          26.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "missing",
+        "location": "top-left",
+        "confidence": 0.6,
+        "details": "expected ~73, found 8"
+      },
+      {
+        "component": "hole",
+        "type": "missing",
+        "location": "top-left",
+        "confidence": 0.6,
+        "details": "expected ~90, found 8"
+      },
+      {
+        "component": "hole",
+        "type": "extra",
+        "location": "top-center",
+        "confidence": 0.5,
+        "details": "expected ~0, found 14"
+      },
+      {
+        "component": "screw",
+        "type": "missing",
+        "location": "center",
+        "confidence": 0.6,
+        "details": "expected ~5, found 1"
+      },
+      {
+        "component": "screw",
+        "type": "missing",
+        "location": "bottom-left",
+        "confidence": 0.6,
+        "details": "expected ~3, found 0"
+      },
+      {
+        "component": "screw",
+        "type": "missing",
+        "location": "bottom-center",
+        "confidence": 0.6,
+        "details": "expected ~3, found 0"
+      },
+      {
+        "component": "hole",
+        "type": "extra",
+        "location": "bottom-right",
+        "confidence": 0.5,
+        "details": "expected ~0, found 10"
+      }
+    ]
+  },
+  {
+    "image": "IMG_5350_2_facade_segmented.jpg",
+    "screws_detected": 2,
+    "holes_detected": 30,
+    "half_tightened_screws": 0,
+    "defects": [
+      {
+        "component": "hole",
+        "type": "missing",
+        "location": "top-left",
+        "confidence": 0.6,
+        "details": "expected ~60, found 12"
+      },
+      {
+        "component": "hole",
+        "type": "extra",
+        "location": "center-left",
+        "confidence": 0.5,
+        "details": "expected ~0, found 7"
+      }
+    ]
+  },
+  {
+    "image": "IMG_5354_2_facade_segmented.jpg",
+    "screws_detected": 74,
+    "holes_detected": 126,
+    "half_tightened_screws": 66,
+    "defects": [
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          833.2,
+          921.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          809.5,
+          927.8
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          598.3,
+          877.3
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          536.3,
+          847.7
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          646.0,
+          842.6
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          510.1,
+          766.1
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1035.0,
+          746.1
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1083.7,
+          739.4
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1058.3,
+          739.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          522.1,
+          736.1
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          661.1,
+          731.4
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          711.1,
+          724.3
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          686.2,
+          725.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-center",
+        "confidence": 0.8,
+        "position": [
+          540.2,
+          710.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1079.7,
+          705.7
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1127.2,
+          699.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1102.1,
+          699.2
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1251.3,
+          691.0
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1241.5,
+          687.4
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1232.5,
+          689.6
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1224.4,
+          689.7
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1274.2,
+          686.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          81.8,
+          617.4
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          107.7,
+          622.8
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          131.2,
+          615.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          102.0,
+          601.4
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          150.1,
+          593.2
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          125.2,
+          594.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center",
+        "confidence": 0.8,
+        "position": [
+          676.2,
+          594.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-right",
+        "confidence": 0.8,
+        "position": [
+          1171.1,
+          572.6
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          174.6,
+          573.4
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          198.2,
+          567.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-right",
+        "confidence": 0.8,
+        "position": [
+          1212.0,
+          568.6
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-right",
+        "confidence": 0.8,
+        "position": [
+          1195.2,
+          565.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          47.2,
+          535.8
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          95.2,
+          531.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          70.2,
+          531.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          463.0,
+          478.5
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          27.7,
+          475.5
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          50.2,
+          471.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          15.3,
+          435.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          62.1,
+          436.0
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          37.2,
+          433.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          3.6,
+          411.2
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          346.3,
+          409.8
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-right",
+        "confidence": 0.8,
+        "position": [
+          1194.0,
+          391.3
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-right",
+        "confidence": 0.8,
+        "position": [
+          1216.2,
+          385.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          255.7,
+          350.4
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          882.6,
+          298.6
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          931.2,
+          294.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          906.2,
+          292.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-left",
+        "confidence": 0.8,
+        "position": [
+          123.4,
+          276.6
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-left",
+        "confidence": 0.8,
+        "position": [
+          64.9,
+          242.5
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          668.1,
+          230.8
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          691.2,
+          226.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-left",
+        "confidence": 0.8,
+        "position": [
+          20.5,
+          212.8
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          510.1,
+          182.4
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          533.2,
+          178.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-left",
+        "confidence": 0.8,
+        "position": [
+          383.1,
+          143.2
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-left",
+        "confidence": 0.8,
+        "position": [
+          406.2,
+          138.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          919.9,
+          137.3
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          968.1,
+          130.2
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          943.2,
+          131.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-right",
+        "confidence": 0.8,
+        "position": [
+          1091.9,
+          89.0
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-right",
+        "confidence": 0.8,
+        "position": [
+          1140.2,
+          84.2
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-right",
+        "confidence": 0.8,
+        "position": [
+          1115.2,
+          83.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "missing",
+        "location": "top-left",
+        "confidence": 0.6,
+        "details": "expected ~110, found 6"
+      },
+      {
+        "component": "hole",
+        "type": "missing",
+        "location": "top-left",
+        "confidence": 0.6,
+        "details": "expected ~251, found 5"
+      },
+      {
+        "component": "hole",
+        "type": "extra",
+        "location": "top-center",
+        "confidence": 0.5,
+        "details": "expected ~1, found 8"
+      },
+      {
+        "component": "hole",
+        "type": "extra",
+        "location": "center-left",
+        "confidence": 0.5,
+        "details": "expected ~0, found 8"
+      },
+      {
+        "component": "screw",
+        "type": "missing",
+        "location": "center",
+        "confidence": 0.6,
+        "details": "expected ~7, found 1"
+      },
+      {
+        "component": "hole",
+        "type": "extra",
+        "location": "center",
+        "confidence": 0.5,
+        "details": "expected ~0, found 9"
+      },
+      {
+        "component": "hole",
+        "type": "extra",
+        "location": "center-right",
+        "confidence": 0.5,
+        "details": "expected ~0, found 7"
+      },
+      {
+        "component": "screw",
+        "type": "missing",
+        "location": "bottom-left",
+        "confidence": 0.6,
+        "details": "expected ~5, found 0"
+      },
+      {
+        "component": "hole",
+        "type": "extra",
+        "location": "bottom-left",
+        "confidence": 0.5,
+        "details": "expected ~0, found 34"
+      },
+      {
+        "component": "hole",
+        "type": "extra",
+        "location": "bottom-center",
+        "confidence": 0.5,
+        "details": "expected ~0, found 50"
+      }
+    ]
+  },
+  {
+    "image": "IMG_5356_2_facade_segmented.jpg",
+    "screws_detected": 38,
+    "holes_detected": 119,
+    "half_tightened_screws": 37,
+    "defects": [
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          47.3,
+          684.3
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          95.3,
+          678.7
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          70.2,
+          678.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          285.6,
+          674.0
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          307.2,
+          667.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          144.2,
+          651.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          331.3,
+          637.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-right",
+        "confidence": 0.8,
+        "position": [
+          1067.0,
+          566.1
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          47.4,
+          534.1
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          71.2,
+          528.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "bottom-left",
+        "confidence": 0.8,
+        "position": [
+          94.1,
+          512.3
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-right",
+        "confidence": 0.8,
+        "position": [
+          1448.2,
+          444.2
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          445.6,
+          342.1
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-left",
+        "confidence": 0.8,
+        "position": [
+          436.9,
+          334.0
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-right",
+        "confidence": 0.8,
+        "position": [
+          1318.2,
+          317.4
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-right",
+        "confidence": 0.8,
+        "position": [
+          1302.5,
+          316.8
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-right",
+        "confidence": 0.8,
+        "position": [
+          1367.7,
+          317.3
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-right",
+        "confidence": 0.8,
+        "position": [
+          1342.1,
+          315.1
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "center-right",
+        "confidence": 0.8,
+        "position": [
+          1270.3,
+          304.7
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-left",
+        "confidence": 0.8,
+        "position": [
+          436.7,
+          224.0
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-right",
+        "confidence": 0.8,
+        "position": [
+          1102.2,
+          223.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-left",
+        "confidence": 0.8,
+        "position": [
+          166.8,
+          182.8
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-left",
+        "confidence": 0.8,
+        "position": [
+          17.6,
+          155.6
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          915.0,
+          129.1
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-left",
+        "confidence": 0.8,
+        "position": [
+          347.2,
+          103.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          807.3,
+          104.0
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          845.3,
+          99.7
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          830.2,
+          99.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          776.9,
+          87.7
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          827.2,
+          81.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          802.2,
+          81.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-left",
+        "confidence": 0.8,
+        "position": [
+          328.6,
+          52.7
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-left",
+        "confidence": 0.8,
+        "position": [
+          318.7,
+          39.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          674.3,
+          37.0
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          697.2,
+          33.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          648.2,
+          19.9
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "half_tightened",
+        "location": "top-center",
+        "confidence": 0.8,
+        "position": [
+          624.8,
+          24.0
+        ]
+      },
+      {
+        "component": "screw",
+        "type": "missing",
+        "location": "top-left",
+        "confidence": 0.6,
+        "details": "expected ~57, found 7"
+      },
+      {
+        "component": "hole",
+        "type": "missing",
+        "location": "top-left",
+        "confidence": 0.6,
+        "details": "expected ~237, found 23"
+      },
+      {
+        "component": "hole",
+        "type": "extra",
+        "location": "top-center",
+        "confidence": 0.5,
+        "details": "expected ~1, found 11"
+      },
+      {
+        "component": "hole",
+        "type": "extra",
+        "location": "top-right",
+        "confidence": 0.5,
+        "details": "expected ~0, found 7"
+      },
+      {
+        "component": "hole",
+        "type": "extra",
+        "location": "center-left",
+        "confidence": 0.5,
+        "details": "expected ~0, found 18"
+      },
+      {
+        "component": "screw",
+        "type": "missing",
+        "location": "center",
+        "confidence": 0.6,
+        "details": "expected ~3, found 0"
+      },
+      {
+        "component": "hole",
+        "type": "extra",
+        "location": "center",
+        "confidence": 0.5,
+        "details": "expected ~0, found 14"
+      },
+      {
+        "component": "hole",
+        "type": "extra",
+        "location": "center-right",
+        "confidence": 0.5,
+        "details": "expected ~0, found 15"
+      },
+      {
+        "component": "hole",
+        "type": "extra",
+        "location": "bottom-left",
+        "confidence": 0.5,
+        "details": "expected ~0, found 12"
+      },
+      {
+        "component": "hole",
+        "type": "extra",
+        "location": "bottom-center",
+        "confidence": 0.5,
+        "details": "expected ~0, found 7"
+      },
+      {
+        "component": "hole",
+        "type": "extra",
+        "location": "bottom-right",
+        "confidence": 0.5,
+        "details": "expected ~0, found 12"
+      }
+    ]
+  }
+]

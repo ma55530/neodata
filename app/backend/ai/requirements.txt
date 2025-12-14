@@ -1,0 +1,16 @@
+torch
+torchvision
+opencv-python
+pillow
+pillow-heif
+numpy
+
+# YOLO for object detection
+ultralytics
+
+# SAM 3 via Hugging Face Transformers
+transformers
+accelerate
+
+# Label Studio for data labeling (optional - install separately)
+# pip install label-studio

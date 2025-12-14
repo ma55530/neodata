@@ -1,0 +1,467 @@
+[
+  {
+    "image": "IMG_5350_2_facade_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "pose_method": "zone_fallback",
+    "detection_stats": {
+      "screws_detected": 2,
+      "holes_detected": 30,
+      "screws_expected": 785,
+      "holes_expected": 845,
+      "tin_coverage": 0.8028208946903148,
+      "glass_coverage": 0.13712080788130263
+    },
+    "defects": [],
+    "ground_truth": [
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-left"
+      }
+    ],
+    "gt_match": {
+      "ground_truth_count": 1,
+      "detected_count": 0,
+      "matches": 0,
+      "recall": 0.0,
+      "precision": 0
+    }
+  },
+  {
+    "image": "IMG_5356_2_facade_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "pose_method": "zone_fallback",
+    "detection_stats": {
+      "screws_detected": 38,
+      "holes_detected": 119,
+      "screws_expected": 785,
+      "holes_expected": 845,
+      "tin_coverage": 0.6030180557914402,
+      "glass_coverage": 0.31108955715013586
+    },
+    "defects": [],
+    "ground_truth": [
+      {
+        "component": "tin",
+        "type": "missing",
+        "location": "center"
+      }
+    ],
+    "gt_match": {
+      "ground_truth_count": 1,
+      "detected_count": 0,
+      "matches": 0,
+      "recall": 0.0,
+      "precision": 0
+    }
+  },
+  {
+    "image": "IMG_5373_2_facade_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "pose_method": "zone_fallback",
+    "detection_stats": {
+      "screws_detected": 20,
+      "holes_detected": 102,
+      "screws_expected": 785,
+      "holes_expected": 845,
+      "tin_coverage": 0.8512110527286135,
+      "glass_coverage": 0.12645380100786627
+    },
+    "defects": [],
+    "ground_truth": [
+      {
+        "component": "tin",
+        "type": "missing",
+        "location": "center"
+      }
+    ],
+    "gt_match": {
+      "ground_truth_count": 1,
+      "detected_count": 0,
+      "matches": 0,
+      "recall": 0.0,
+      "precision": 0
+    }
+  },
+  {
+    "image": "IMG_5401_2_facade_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "pose_method": "zone_fallback",
+    "detection_stats": {
+      "screws_detected": 28,
+      "holes_detected": 167,
+      "screws_expected": 785,
+      "holes_expected": 845,
+      "tin_coverage": 0.5812291308177646,
+      "glass_coverage": 0.33670953171091444
+    },
+    "defects": [
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-right",
+        "confidence": 0.4
+      }
+    ],
+    "ground_truth": [
+      {
+        "component": "tin",
+        "type": "missing",
+        "location": "center"
+      }
+    ],
+    "gt_match": {
+      "ground_truth_count": 1,
+      "detected_count": 1,
+      "matches": 0,
+      "recall": 0.0,
+      "precision": 0.0
+    }
+  },
+  {
+    "image": "IMG_5456_3_facade_segmented.jpg",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "pose_method": "zone_fallback",
+    "detection_stats": {
+      "screws_detected": 45,
+      "holes_detected": 30,
+      "screws_expected": 1652,
+      "holes_expected": 1082,
+      "tin_coverage": 0.4286702473958333,
+      "glass_coverage": 0.26386161472486414
+    },
+    "defects": [
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-center",
+        "confidence": 0.4
+      },
+      {
+        "component": "tin",
+        "type": "missing",
+        "location": "top-right",
+        "confidence": 0.61
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center-right",
+        "confidence": 0.4
+      }
+    ],
+    "ground_truth": [
+      {
+        "component": "tin",
+        "type": "missing",
+        "location": "bottom-right"
+      }
+    ],
+    "gt_match": {
+      "ground_truth_count": 1,
+      "detected_count": 3,
+      "matches": 1,
+      "recall": 1.0,
+      "precision": 0.3333333333333333
+    }
+  },
+  {
+    "image": "IMG_5458_3_facade_segmented.jpg",
+    "matched_model": "1039-1-CWQ4946-4GT2-4000-4_01.STP",
+    "pose_method": "zone_fallback",
+    "detection_stats": {
+      "screws_detected": 54,
+      "holes_detected": 4,
+      "screws_expected": 870,
+      "holes_expected": 697,
+      "tin_coverage": 0.3296210369228337,
+      "glass_coverage": 0.5268326143461417
+    },
+    "defects": [
+      {
+        "component": "tin",
+        "type": "missing",
+        "location": "center-left",
+        "confidence": 0.8
+      },
+      {
+        "component": "tin",
+        "type": "missing",
+        "location": "center",
+        "confidence": 0.8
+      },
+      {
+        "component": "tin",
+        "type": "missing",
+        "location": "center-right",
+        "confidence": 0.42
+      }
+    ],
+    "ground_truth": [
+      {
+        "component": "tin",
+        "type": "missing",
+        "location": "center"
+      }
+    ],
+    "gt_match": {
+      "ground_truth_count": 1,
+      "detected_count": 3,
+      "matches": 1,
+      "recall": 1.0,
+      "precision": 0.3333333333333333
+    }
+  },
+  {
+    "image": "IMG_5462_3_facade_segmented.jpg",
+    "matched_model": "1039-7-CWK5746-4LL0-DI31-4_01.STP",
+    "pose_method": "zone_fallback",
+    "detection_stats": {
+      "screws_detected": 73,
+      "holes_detected": 39,
+      "screws_expected": 1652,
+      "holes_expected": 1082,
+      "tin_coverage": 0.3580143070762368,
+      "glass_coverage": 0.2573475833840227
+    },
+    "defects": [
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-right",
+        "confidence": 0.4
+      },
+      {
+        "component": "tin",
+        "type": "missing",
+        "location": "center-right",
+        "confidence": 0.4
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-left",
+        "confidence": 0.4
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-center",
+        "confidence": 0.4
+      }
+    ],
+    "ground_truth": [
+      {
+        "component": "tin",
+        "type": "missing",
+        "location": "bottom-right"
+      }
+    ],
+    "gt_match": {
+      "ground_truth_count": 1,
+      "detected_count": 4,
+      "matches": 1,
+      "recall": 1.0,
+      "precision": 0.25
+    }
+  },
+  {
+    "image": "IMG_5464_3_facade_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "pose_method": "zone_fallback",
+    "detection_stats": {
+      "screws_detected": 27,
+      "holes_detected": 57,
+      "screws_expected": 785,
+      "holes_expected": 845,
+      "tin_coverage": 0.3826673298395445,
+      "glass_coverage": 0.4267747961956522
+    },
+    "defects": [
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.4
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center-left",
+        "confidence": 0.4
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center",
+        "confidence": 0.4
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center-right",
+        "confidence": 0.4
+      }
+    ],
+    "ground_truth": [
+      {
+        "component": "tin",
+        "type": "missing",
+        "location": "bottom-left"
+      }
+    ],
+    "gt_match": {
+      "ground_truth_count": 1,
+      "detected_count": 4,
+      "matches": 1,
+      "recall": 1.0,
+      "precision": 0.25
+    }
+  },
+  {
+    "image": "IMG_5491_3_facade_segmented.jpg",
+    "matched_model": "1039-1-CWQ4946-4GT2-4000-4_01.STP",
+    "pose_method": "zone_fallback",
+    "detection_stats": {
+      "screws_detected": 16,
+      "holes_detected": 14,
+      "screws_expected": 870,
+      "holes_expected": 697,
+      "tin_coverage": 0.90057369420306,
+      "glass_coverage": 0.0
+    },
+    "defects": [],
+    "ground_truth": [
+      {
+        "component": "screw",
+        "type": "missing",
+        "location": "center-right"
+      },
+      {
+        "component": "tin",
+        "type": "missing",
+        "location": "right"
+      }
+    ],
+    "gt_match": {
+      "ground_truth_count": 2,
+      "detected_count": 0,
+      "matches": 0,
+      "recall": 0.0,
+      "precision": 0
+    }
+  },
+  {
+    "image": "IMG_5643_facade_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "pose_method": "zone_fallback",
+    "detection_stats": {
+      "screws_detected": 6,
+      "holes_detected": 89,
+      "screws_expected": 785,
+      "holes_expected": 845,
+      "tin_coverage": 0.2041595476925338,
+      "glass_coverage": 0.6613885788690477
+    },
+    "defects": [
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-left",
+        "confidence": 0.4
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-center",
+        "confidence": 0.4
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "top-right",
+        "confidence": 0.4
+      },
+      {
+        "component": "tin",
+        "type": "missing",
+        "location": "center-left",
+        "confidence": 0.465
+      },
+      {
+        "component": "tin",
+        "type": "missing",
+        "location": "center",
+        "confidence": 0.8
+      },
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "center-right",
+        "confidence": 0.4
+      }
+    ]
+  },
+  {
+    "image": "IMG_5662_facade_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "pose_method": "zone_fallback",
+    "detection_stats": {
+      "screws_detected": 96,
+      "holes_detected": 179,
+      "screws_expected": 785,
+      "holes_expected": 845,
+      "tin_coverage": 0.5030310183865451,
+      "glass_coverage": 0.10941879869821361
+    },
+    "defects": [
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-left",
+        "confidence": 0.4
+      },
+      {
+        "component": "tin",
+        "type": "missing",
+        "location": "bottom-right",
+        "confidence": 0.601
+      }
+    ]
+  },
+  {
+    "image": "IMG_5665_facade_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "pose_method": "zone_fallback",
+    "detection_stats": {
+      "screws_detected": 39,
+      "holes_detected": 168,
+      "screws_expected": 785,
+      "holes_expected": 845,
+      "tin_coverage": 0.7968861070100612,
+      "glass_coverage": 0.0014921840824584428
+    },
+    "defects": []
+  },
+  {
+    "image": "IMG_5686_facade_segmented.jpg",
+    "matched_model": "1096-1-CWAV-1-01A-A2D1-00.STP",
+    "pose_method": "zone_fallback",
+    "detection_stats": {
+      "screws_detected": 46,
+      "holes_detected": 125,
+      "screws_expected": 785,
+      "holes_expected": 845,
+      "tin_coverage": 0.7118445257092199,
+      "glass_coverage": 0.026336713209219858
+    },
+    "defects": [
+      {
+        "component": "tin",
+        "type": "damaged",
+        "location": "bottom-right",
+        "confidence": 0.4
+      }
+    ]
+  }
+]

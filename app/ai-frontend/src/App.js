@@ -1,6 +1,5 @@
-"use client"
-
 import { useEffect, useMemo, useState } from "react"
+import { Link } from "react-router-dom"
 import heic2any from "heic2any"
 import "./App.css"
 import NeoDataLogo from "./assets/neodata.jpg"
@@ -200,11 +199,15 @@ function App() {
             <img src={KFK_LOGO_URL} alt="KFK" className="brand-logo kfk" />
             <small>KFK QC Challenge</small>
           </div>
+
         </div>
         <div className="top-actions">
           <div className="partner-logo">
             <img src={COMMINUS_LOGO_URL} alt="Comminus" />
           </div>
+          <Link className="ghost secondary" to="/presentation">
+            Presentation
+          </Link>
           <a className="ghost secondary" href="https://www.kfk.hr" target="_blank" rel="noreferrer">
             KFK Portal
           </a>

@@ -1,0 +1,282 @@
+{
+  "timestamp": "2025-12-14T02:13:39.273854",
+  "total_evaluations": 867,
+  "best_result": {
+    "params": {
+      "GAP_THRESHOLD": 13,
+      "GOOD_COVERAGE": 14,
+      "CENTER_MIN_COVERAGE": 5,
+      "MIN_GAPS_STRONG": 3,
+      "MIN_GAPS_MEDIUM": 1,
+      "MIN_GAPS_WEAK": 2,
+      "MIN_COVERED_FOR_WEAK": 1,
+      "CONFIDENCE_STRONG": 0.85,
+      "CONFIDENCE_MEDIUM": 0.75,
+      "CONFIDENCE_WEAK": 0.7,
+      "CONFIDENCE_THRESHOLD": 0.6
+    },
+    "score": 18,
+    "tp": 26,
+    "fp": 8,
+    "fn": 21,
+    "recall": 0.5531914893617021,
+    "precision": 0.7647058823529411,
+    "f1_score": 0.6419753086419752
+  },
+  "default_params": {
+    "GAP_THRESHOLD": 13,
+    "GOOD_COVERAGE": 8,
+    "CENTER_MIN_COVERAGE": 15,
+    "MIN_GAPS_STRONG": 3,
+    "MIN_GAPS_MEDIUM": 2,
+    "MIN_GAPS_WEAK": 1,
+    "MIN_COVERED_FOR_WEAK": 2,
+    "CONFIDENCE_STRONG": 0.85,
+    "CONFIDENCE_MEDIUM": 0.75,
+    "CONFIDENCE_WEAK": 0.7,
+    "CONFIDENCE_THRESHOLD": 0.7
+  },
+  "improvement": {
+    "default_score": 16,
+    "best_score": 18,
+    "improvement": 2
+  },
+  "top_10_configurations": [
+    {
+      "params": {
+        "GAP_THRESHOLD": 13,
+        "GOOD_COVERAGE": 14,
+        "CENTER_MIN_COVERAGE": 5,
+        "MIN_GAPS_STRONG": 3,
+        "MIN_GAPS_MEDIUM": 1,
+        "MIN_GAPS_WEAK": 2,
+        "MIN_COVERED_FOR_WEAK": 1,
+        "CONFIDENCE_STRONG": 0.85,
+        "CONFIDENCE_MEDIUM": 0.75,
+        "CONFIDENCE_WEAK": 0.7,
+        "CONFIDENCE_THRESHOLD": 0.6
+      },
+      "score": 18,
+      "recall": 0.5531914893617021,
+      "precision": 0.7647058823529411
+    },
+    {
+      "params": {
+        "GAP_THRESHOLD": 13,
+        "GOOD_COVERAGE": 14,
+        "CENTER_MIN_COVERAGE": 5,
+        "MIN_GAPS_STRONG": 2,
+        "MIN_GAPS_MEDIUM": 1,
+        "MIN_GAPS_WEAK": 2,
+        "MIN_COVERED_FOR_WEAK": 1,
+        "CONFIDENCE_STRONG": 0.85,
+        "CONFIDENCE_MEDIUM": 0.75,
+        "CONFIDENCE_WEAK": 0.7,
+        "CONFIDENCE_THRESHOLD": 0.6
+      },
+      "score": 18,
+      "recall": 0.5531914893617021,
+      "precision": 0.7647058823529411
+    },
+    {
+      "params": {
+        "GAP_THRESHOLD": 13,
+        "GOOD_COVERAGE": 14,
+        "CENTER_MIN_COVERAGE": 5,
+        "MIN_GAPS_STRONG": 4,
+        "MIN_GAPS_MEDIUM": 1,
+        "MIN_GAPS_WEAK": 2,
+        "MIN_COVERED_FOR_WEAK": 1,
+        "CONFIDENCE_STRONG": 0.85,
+        "CONFIDENCE_MEDIUM": 0.75,
+        "CONFIDENCE_WEAK": 0.7,
+        "CONFIDENCE_THRESHOLD": 0.6
+      },
+      "score": 18,
+      "recall": 0.5531914893617021,
+      "precision": 0.7647058823529411
+    },
+    {
+      "params": {
+        "GAP_THRESHOLD": 13,
+        "GOOD_COVERAGE": 14,
+        "CENTER_MIN_COVERAGE": 5,
+        "MIN_GAPS_STRONG": 3,
+        "MIN_GAPS_MEDIUM": 1,
+        "MIN_GAPS_WEAK": 1,
+        "MIN_COVERED_FOR_WEAK": 1,
+        "CONFIDENCE_STRONG": 0.85,
+        "CONFIDENCE_MEDIUM": 0.75,
+        "CONFIDENCE_WEAK": 0.7,
+        "CONFIDENCE_THRESHOLD": 0.6
+      },
+      "score": 18,
+      "recall": 0.5531914893617021,
+      "precision": 0.7647058823529411
+    },
+    {
+      "params": {
+        "GAP_THRESHOLD": 13,
+        "GOOD_COVERAGE": 14,
+        "CENTER_MIN_COVERAGE": 5,
+        "MIN_GAPS_STRONG": 3,
+        "MIN_GAPS_MEDIUM": 1,
+        "MIN_GAPS_WEAK": 2,
+        "MIN_COVERED_FOR_WEAK": 2,
+        "CONFIDENCE_STRONG": 0.85,
+        "CONFIDENCE_MEDIUM": 0.75,
+        "CONFIDENCE_WEAK": 0.7,
+        "CONFIDENCE_THRESHOLD": 0.6
+      },
+      "score": 18,
+      "recall": 0.5531914893617021,
+      "precision": 0.7647058823529411
+    },
+    {
+      "params": {
+        "GAP_THRESHOLD": 13,
+        "GOOD_COVERAGE": 14,
+        "CENTER_MIN_COVERAGE": 5,
+        "MIN_GAPS_STRONG": 3,
+        "MIN_GAPS_MEDIUM": 1,
+        "MIN_GAPS_WEAK": 2,
+        "MIN_COVERED_FOR_WEAK": 1,
+        "CONFIDENCE_STRONG": 0.85,
+        "CONFIDENCE_MEDIUM": 0.75,
+        "CONFIDENCE_WEAK": 0.7,
+        "CONFIDENCE_THRESHOLD": 0.65
+      },
+      "score": 18,
+      "recall": 0.5531914893617021,
+      "precision": 0.7647058823529411
+    },
+    {
+      "params": {
+        "GAP_THRESHOLD": 13,
+        "GOOD_COVERAGE": 14,
+        "CENTER_MIN_COVERAGE": 5,
+        "MIN_GAPS_STRONG": 4,
+        "MIN_GAPS_MEDIUM": 1,
+        "MIN_GAPS_WEAK": 2,
+        "MIN_COVERED_FOR_WEAK": 3,
+        "CONFIDENCE_STRONG": 0.85,
+        "CONFIDENCE_MEDIUM": 0.75,
+        "CONFIDENCE_WEAK": 0.7,
+        "CONFIDENCE_THRESHOLD": 0.65
+      },
+      "score": 18,
+      "recall": 0.5531914893617021,
+      "precision": 0.7647058823529411
+    },
+    {
+      "params": {
+        "GAP_THRESHOLD": 13,
+        "GOOD_COVERAGE": 14,
+        "CENTER_MIN_COVERAGE": 5,
+        "MIN_GAPS_STRONG": 4,
+        "MIN_GAPS_MEDIUM": 1,
+        "MIN_GAPS_WEAK": 2,
+        "MIN_COVERED_FOR_WEAK": 3,
+        "CONFIDENCE_STRONG": 0.85,
+        "CONFIDENCE_MEDIUM": 0.75,
+        "CONFIDENCE_WEAK": 0.7,
+        "CONFIDENCE_THRESHOLD": 0.6
+      },
+      "score": 18,
+      "recall": 0.5531914893617021,
+      "precision": 0.7647058823529411
+    },
+    {
+      "params": {
+        "GAP_THRESHOLD": 13,
+        "GOOD_COVERAGE": 14,
+        "CENTER_MIN_COVERAGE": 5,
+        "MIN_GAPS_STRONG": 4,
+        "MIN_GAPS_MEDIUM": 1,
+        "MIN_GAPS_WEAK": 1,
+        "MIN_COVERED_FOR_WEAK": 3,
+        "CONFIDENCE_STRONG": 0.85,
+        "CONFIDENCE_MEDIUM": 0.75,
+        "CONFIDENCE_WEAK": 0.7,
+        "CONFIDENCE_THRESHOLD": 0.6
+      },
+      "score": 18,
+      "recall": 0.5531914893617021,
+      "precision": 0.7647058823529411
+    },
+    {
+      "params": {
+        "GAP_THRESHOLD": 13,
+        "GOOD_COVERAGE": 14,
+        "CENTER_MIN_COVERAGE": 5,
+        "MIN_GAPS_STRONG": 4,
+        "MIN_GAPS_MEDIUM": 1,
+        "MIN_GAPS_WEAK": 2,
+        "MIN_COVERED_FOR_WEAK": 2,
+        "CONFIDENCE_STRONG": 0.85,
+        "CONFIDENCE_MEDIUM": 0.75,
+        "CONFIDENCE_WEAK": 0.7,
+        "CONFIDENCE_THRESHOLD": 0.65
+      },
+      "score": 18,
+      "recall": 0.5531914893617021,
+      "precision": 0.7647058823529411
+    }
+  ],
+  "parameter_recommendations": {
+    "GAP_THRESHOLD": {
+      "recommended": 13,
+      "frequency_in_top_20": {
+        "13": 10
+      }
+    },
+    "GOOD_COVERAGE": {
+      "recommended": 14,
+      "frequency_in_top_20": {
+        "14": 10
+      }
+    },
+    "CENTER_MIN_COVERAGE": {
+      "recommended": 5,
+      "frequency_in_top_20": {
+        "5": 10
+      }
+    },
+    "MIN_GAPS_STRONG": {
+      "recommended": 4,
+      "frequency_in_top_20": {
+        "3": 4,
+        "2": 1,
+        "4": 5
+      }
+    },
+    "MIN_GAPS_MEDIUM": {
+      "recommended": 1,
+      "frequency_in_top_20": {
+        "1": 10
+      }
+    },
+    "MIN_GAPS_WEAK": {
+      "recommended": 2,
+      "frequency_in_top_20": {
+        "2": 8,
+        "1": 2
+      }
+    },
+    "MIN_COVERED_FOR_WEAK": {
+      "recommended": 1,
+      "frequency_in_top_20": {
+        "1": 5,
+        "2": 2,
+        "3": 3
+      }
+    },
+    "CONFIDENCE_THRESHOLD": {
+      "recommended": 0.6,
+      "frequency_in_top_20": {
+        "0.6": 7,
+        "0.65": 3
+      }
+    }
+  }
+}

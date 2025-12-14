@@ -1,0 +1,6 @@
+{
+    "image": "IMG_5616.HEIC",
+    "defects": [
+        {"component": "screw", "type": "missing", "location": "bottom-left"}
+    ]
+}
