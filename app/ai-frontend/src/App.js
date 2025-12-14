@@ -498,6 +498,9 @@ function App() {
           </div>
         </section>
       </main>
+      <footer className="site-footer">
+        <div className="footer-inner">Tim FERSADA</div>
+      </footer>
     </div>
   )
 }
