@@ -279,99 +279,103 @@ function App() {
                   <span className={verdictBadgeClass}>{prediction.label}</span>
                   {confidencePercent && <span className="confidence-chip">{confidencePercent}</span>}
                 </div>
-                <p className="verdict-text">{prediction.verdict}</p>
 
-                <div className="result-meta">
-                  <div>
-                    <span className="meta-label">Fotografija</span>
-                    <strong>{prediction.original_jpeg || file?.name || "—"}</strong>
-                  </div>
-                  <div>
-                    <span className="meta-label">CAD model</span>
-                    <strong>{prediction.matched_model || "—"}</strong>
-                  </div>
-                  <div>
-                    <span className="meta-label">Segmentacija</span>
-                    <span>{prediction.mask_relative || prediction.mask_source || "—"}</span>
+                <div className="result-visuals">
+                  {maskOverlayUrl && (
+                    <div className="analysis-visuals">
+                      <figure className="analysis-card">
+                        <span className="meta-label">Segmentirani overlay</span>
+                        <img src={maskOverlayUrl} alt="Segmentirani overlay" />
+                        <figcaption>{prediction.mask_overlay}</figcaption>
+                      </figure>
+                    </div>
+                  )}
+                  <div className="result-meta">
+                    <div>
+                      <span className="meta-label">Fotografija</span>
+                      <strong>{prediction.original_jpeg || file?.name || "—"}</strong>
+                    </div>
+                    <div>
+                      <span className="meta-label">CAD model</span>
+                      <strong>{prediction.matched_model || "—"}</strong>
+                    </div>
+                    <div>
+                      <span className="meta-label">Segmentacija</span>
+                      <span>{prediction.mask_relative || prediction.mask_source || "—"}</span>
+                    </div>
                   </div>
                 </div>
 
-                {maskOverlayUrl && (
-                  <div className="analysis-visuals">
-                    <figure className="analysis-card">
-                      <span className="meta-label">Segmentirani overlay</span>
-                      <img src={maskOverlayUrl} alt="Segmentirani overlay" />
-                      <figcaption>{prediction.mask_overlay}</figcaption>
-                    </figure>
-                  </div>
-                )}
+                <div className="result-details">
+                  <p className="verdict-text">{prediction.verdict}</p>
 
-                {prediction.detection_stats && (
-                  <div className="stats-grid">
-                    <div>
-                      <span className="stat-label">Tin pokrivenost</span>
-                      <strong>{formatPercent(prediction.detection_stats.tin_coverage)}</strong>
+                  {prediction.detection_stats && (
+                    <div className="stats-grid">
+                      <div>
+                        <span className="stat-label">Tin pokrivenost</span>
+                        <strong>{formatPercent(prediction.detection_stats.tin_coverage)}</strong>
+                      </div>
+                      <div>
+                        <span className="stat-label">Staklo</span>
+                        <strong>{formatPercent(prediction.detection_stats.glass_coverage)}</strong>
+                      </div>
+                      <div>
+                        <span className="stat-label">Brtva</span>
+                        <strong>{formatPercent(prediction.detection_stats.seal_coverage)}</strong>
+                      </div>
+                      <div>
+                        <span className="stat-label">Vijci</span>
+                        <strong>{prediction.detection_stats.screw_count ?? 0}</strong>
+                      </div>
+                      <div>
+                        <span className="stat-label">Rupe</span>
+                        <strong>{prediction.detection_stats.hole_count ?? 0}</strong>
+                      </div>
                     </div>
-                    <div>
-                      <span className="stat-label">Staklo</span>
-                      <strong>{formatPercent(prediction.detection_stats.glass_coverage)}</strong>
-                    </div>
-                    <div>
-                      <span className="stat-label">Brtva</span>
-                      <strong>{formatPercent(prediction.detection_stats.seal_coverage)}</strong>
-                    </div>
-                    <div>
-                      <span className="stat-label">Vijci</span>
-                      <strong>{prediction.detection_stats.screw_count ?? 0}</strong>
-                    </div>
-                    <div>
-                      <span className="stat-label">Rupe</span>
-                      <strong>{prediction.detection_stats.hole_count ?? 0}</strong>
-                    </div>
-                  </div>
-                )}
+                  )}
 
-                {Array.isArray(prediction.defects) && prediction.defects.length > 0 ? (
-                  <ul className="defect-list">
-                    {prediction.defects.map((defect, index) => (
-                      <li key={`${defect.component || "defect"}-${defect.type || index}-${index}`}>
-                        <div className="defect-main">
-                          <strong>{defect.component || "Nepoznata komponenta"}</strong>
-                          <span className="defect-type">{defect.type || "Bez tipa"}</span>
-                          {typeof defect.confidence === "number" && (
-                            <span className="defect-confidence">{formatPercent(defect.confidence * 100)}</span>
+                  {Array.isArray(prediction.defects) && prediction.defects.length > 0 ? (
+                    <ul className="defect-list">
+                      {prediction.defects.map((defect, index) => (
+                        <li key={`${defect.component || "defect"}-${defect.type || index}-${index}`}>
+                          <div className="defect-main">
+                            <strong>{defect.component || "Nepoznata komponenta"}</strong>
+                            <span className="defect-type">{defect.type || "Bez tipa"}</span>
+                            {typeof defect.confidence === "number" && (
+                              <span className="defect-confidence">{formatPercent(defect.confidence * 100)}</span>
+                            )}
+                          </div>
+                          {Array.isArray(defect.zones_missing) && defect.zones_missing.length > 0 && (
+                            <div className="zone-strip danger">
+                              <span className="strip-label">Zone bez pokrova</span>
+                              <div className="zone-pills">
+                                {defect.zones_missing.map((zone) => (
+                                  <span className="zone-chip danger" key={`missing-${zone}`}>
+                                    {zone}
+                                  </span>
+                                ))}
+                              </div>
+                            </div>
                           )}
-                        </div>
-                        {Array.isArray(defect.zones_missing) && defect.zones_missing.length > 0 && (
-                          <div className="zone-strip danger">
-                            <span className="strip-label">Zone bez pokrova</span>
-                            <div className="zone-pills">
-                              {defect.zones_missing.map((zone) => (
-                                <span className="zone-chip danger" key={`missing-${zone}`}>
-                                  {zone}
-                                </span>
-                              ))}
+                          {Array.isArray(defect.zones_present) && defect.zones_present.length > 0 && (
+                            <div className="zone-strip success">
+                              <span className="strip-label">Zone s pokrovom</span>
+                              <div className="zone-pills">
+                                {defect.zones_present.map((zone) => (
+                                  <span className="zone-chip success" key={`present-${zone}`}>
+                                    {zone}
+                                  </span>
+                                ))}
+                              </div>
                             </div>
-                          </div>
-                        )}
-                        {Array.isArray(defect.zones_present) && defect.zones_present.length > 0 && (
-                          <div className="zone-strip success">
-                            <span className="strip-label">Zone s pokrovom</span>
-                            <div className="zone-pills">
-                              {defect.zones_present.map((zone) => (
-                                <span className="zone-chip success" key={`present-${zone}`}>
-                                  {zone}
-                                </span>
-                              ))}
-                            </div>
-                          </div>
-                        )}
-                      </li>
-                    ))}
-                  </ul>
-                ) : (
-                  <p className="muted">Nema detektiranih defekata iznad zadane granice povjerenja.</p>
-                )}
+                          )}
+                        </li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p className="muted">Nema detektiranih defekata iznad zadane granice povjerenja.</p>
+                  )}
+                </div>
               </div>
             )}
 
