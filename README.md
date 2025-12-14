@@ -7,6 +7,7 @@ Ova mapa (`ai/`) sadrži sve artefakte i skripte vezane uz semantičku segmentac
 VAŽNO — Colab + ručni outputi
 - Zbog ograničenja lokalnog hardvera, ključni korak segmentacije i izrade maski je izvršen ručno u Google Colab okruženju (GPU). Koristili smo `SAM_Improved_Segmentation.ipynb` za pokretanje SAM (SAM3) + YOLO pre-obradu i spremanje *segmented outputs* u Drive.
 - Za demonstraciju (frontend i evaluaciju) koristimo upravo te spremljene izlaze (`segmented_output_improved/`) umjesto da svaki put ponovo pokrećemo dugotrajnu obradu.
+- Treba pričekati backend!
 
 Zašto to radimo
 - Segmentacija s pixel-level maskama i treniranje SAM/YOLO pipeline-a zahtijeva snažnu GPU instancu i puno vremena. Colab + Drive omogućuje reproducibilnost bez potrebe za lokalnim high-end GPU-ima.
@@ -33,6 +34,7 @@ Savjeti i napomene
 - Ako Colab nema dovoljno RAM-a za SAM3, pokušaj koristiti Colab Pro / Pro+ ili prilagoditi `max_dim` u notebooku kako bi smanjio veličinu ulaznih slika.
 - Notebook koristi razne varijante tekstualnih promptova (`COMPONENT_PROMPTS`) kako bi popravio pokrivanje komponenti — budite pažljivi kod promjene tih promptova jer to utječe na kvalitetu maski.
 - HEIC / HEIF: notebook i backend podržavaju `pillow-heif` konverziju; u nekim okruženjima možda treba dodatna instalacija sustavskih paketa.
+- Backend se gasi zbog 15 minuta neaktivnosti. Pri inicijalnome testiranju je važno biti strpljiv kako bi se pokrenuo backend!
 
 Treniranje YOLO modela (općenito)
 1. Pripremi dataset u YOLO formatu (vidi `dataset.yaml` u ovoj mapi ako postoji).
@@ -61,8 +63,5 @@ Dodatne napomene za reproducibilnost
 - Sačuvajte verzije paketa i preuzmite sve trained checkpoint-e na Drive — to značajno ubrzava ponovno izvođenje.
 - Za arhiviranje rezultata držite strukturu `segmented_output_improved/{positive,negative}` i _masks.json objekte netaknutima.
 
-Kontakt / dalje
-- Ako želiš da dodam automatsko preuzimanje `segmented_output_improved/` iz Drive-a ili generator `dataset.yaml`, mogu to pripremiti kao skriptu.
-
 ---
-Dokument napisao: tim Neodata — fokusirano na reproducibilnost i Colab pipeline za segmentaciju.
+Tim FERSADA
