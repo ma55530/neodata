@@ -436,30 +436,7 @@ function App() {
                               <span className="defect-confidence">{formatPercent(defect.confidence * 100)}</span>
                             )}
                           </div>
-                          {Array.isArray(defect.zones_missing) && defect.zones_missing.length > 0 && (
-                            <div className="zone-strip danger">
-                              <span className="strip-label">Zone bez pokrova</span>
-                              <div className="zone-pills">
-                                {defect.zones_missing.map((zone) => (
-                                  <span className="zone-chip danger" key={`missing-${zone}`}>
-                                    {zone}
-                                  </span>
-                                ))}
-                              </div>
-                            </div>
-                          )}
-                          {Array.isArray(defect.zones_present) && defect.zones_present.length > 0 && (
-                            <div className="zone-strip success">
-                              <span className="strip-label">Zone s pokrovom</span>
-                              <div className="zone-pills">
-                                {defect.zones_present.map((zone) => (
-                                  <span className="zone-chip success" key={`present-${zone}`}>
-                                    {zone}
-                                  </span>
-                                ))}
-                              </div>
-                            </div>
-                          )}
+                          {/* Zone display removed: showing zones caused confusion in demo */}
                         </li>
                       ))}
                     </ul>
