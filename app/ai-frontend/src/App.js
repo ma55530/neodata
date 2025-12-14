@@ -173,6 +173,87 @@ function App() {
     return `${(prediction.confidence * 100).toFixed(1)}%`
   }, [prediction])
 
+  // --- Download helpers for current prediction report ---
+  const downloadBlob = (content, filename, type) => {
+    const blob = new Blob([content], { type })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement("a")
+    a.href = url
+    a.download = filename
+    document.body.appendChild(a)
+    a.click()
+    a.remove()
+    URL.revokeObjectURL(url)
+  }
+
+  const downloadReportJSON = async () => {
+    if (!prediction) return
+    const base = (prediction.original_jpeg || "report").replace(/\s+/g, "_")
+    const filename = `${base}.json`
+
+    // try to fetch backend /health and append
+    let health = null
+    try {
+      const res = await fetch(`${API_BASE_URL}/health`)
+      if (res.ok) {
+        health = await res.json()
+      } else {
+        health = { error: `health endpoint returned ${res.status}` }
+      }
+    } catch (e) {
+      health = { error: `unable to reach health endpoint: ${e.message}` }
+    }
+
+    const enriched = { ...prediction, backend_health: health }
+    const payload = JSON.stringify(enriched, null, 2)
+    downloadBlob(payload, filename, "application/json")
+  }
+
+  const downloadReportTXT = async () => {
+    if (!prediction) return
+    const base = (prediction.original_jpeg || "report").replace(/\s+/g, "_")
+    const filename = `${base}.txt`
+    const lines = []
+    lines.push(`Label: ${prediction.label}`)
+    lines.push(`Confidence: ${prediction.confidence ?? "-"}`)
+    lines.push(`Verdict: ${prediction.verdict ?? "-"}`)
+    lines.push("")
+    if (prediction.detection_stats) {
+      lines.push("Detection stats:")
+      Object.entries(prediction.detection_stats).forEach(([k, v]) => {
+        lines.push(`  ${k}: ${v}`)
+      })
+      lines.push("")
+    }
+    lines.push("Defects:")
+    if (Array.isArray(prediction.defects) && prediction.defects.length) {
+      prediction.defects.forEach((d, i) => {
+        lines.push(`${i + 1}. Component: ${d.component || "-"}; Type: ${d.type || "-"}; Confidence: ${d.confidence ?? "-"}`)
+      })
+    } else {
+      lines.push("  (none)")
+    }
+
+    // append backend /health info
+    lines.push("")
+    lines.push("--- Backend health ---")
+    try {
+      const res = await fetch(`${API_BASE_URL}/health`)
+      if (res.ok) {
+        const health = await res.json()
+        Object.entries(health).forEach(([k, v]) => {
+          lines.push(`${k}: ${typeof v === 'object' ? JSON.stringify(v) : v}`)
+        })
+      } else {
+        lines.push(`health endpoint returned ${res.status}`)
+      }
+    } catch (e) {
+      lines.push(`unable to reach health endpoint: ${e.message}`)
+    }
+
+    downloadBlob(lines.join("\n"), filename, "text/plain")
+  }
+
   const maskOverlayUrl = useMemo(() => {
     if (!prediction?.mask_overlay) {
       return null
@@ -243,19 +324,27 @@ function App() {
               )}
             </div>
 
-            <label className={`dropzone ${file ? "has-file" : ""}`} htmlFor="file-upload">
-              {previewUrl ? (
-                <img src={previewUrl} alt="pregled" className="preview" />
-              ) : (
-                <>
-                  <span className="drop-icon" aria-hidden="true">
-                    UPLOAD
-                  </span>
-                  <p>Povucite ili kliknite kako biste dodali fotografiju fasadnog panela</p>
-                  <small>Podržani formati: JPG, PNG, BMP · preporučeno 4K</small>
-                </>
-              )}
-            </label>
+
+              <label className={`dropzone ${file ? "has-file" : ""}`} htmlFor="file-upload">
+                {previewUrl ? (
+                  <img src={previewUrl} alt="pregled" className="preview" />
+                ) : (
+                  <>
+                    <span className="drop-icon" aria-hidden="true">
+                      UPLOAD
+                    </span>
+                    <p>Povucite ili kliknite kako biste dodali fotografiju fasadnog panela</p>
+                    <small>Podržani formati: JPG, PNG, BMP · preporučeno 4K</small>
+                  </>
+                )}
+              </label>
+              <div className="filename-warning">
+                <span role="img" aria-label="warning" style={{marginRight: 6, fontSize: '1em'}}>⚠️</span>
+                <span>
+                  <strong>Napomena:</strong> Radi demonstracijskih namjera, naziv slike <u>mora biti identičan</u> kao u datasetu (npr. "IMG_5346 2.jpg").
+                  Inače analiza neće biti moguća.
+                </span>
+              </div>
             <input id="file-upload" type="file" accept="image/*" onChange={handleFileChange} hidden />
 
             <div className="actions">
@@ -279,6 +368,8 @@ function App() {
                   <span className={verdictBadgeClass}>{prediction.label}</span>
                   {confidencePercent && <span className="confidence-chip">{confidencePercent}</span>}
                 </div>
+              
+                
 
                 <div className="result-visuals">
                   {maskOverlayUrl && (
@@ -375,6 +466,14 @@ function App() {
                   ) : (
                     <p className="muted">Nema detektiranih defekata iznad zadane granice povjerenja.</p>
                   )}
+                </div>
+                <div className="download-actions">
+                  <button type="button" className="ghost download-btn" onClick={downloadReportJSON}>
+                    Preuzmi JSON
+                  </button>
+                  <button type="button" className="ghost download-btn" onClick={downloadReportTXT}>
+                    Preuzmi TXT
+                  </button>
                 </div>
               </div>
             )}

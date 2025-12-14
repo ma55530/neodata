@@ -7,6 +7,10 @@ from typing import Dict
 
 print(f"[startup] Python executable: {sys.executable}")
 
+import logging
+import signal
+import traceback
+
 from combined_detector_service import CombinedDetectorService
 import torch
 from fastapi import FastAPI, File, HTTPException, UploadFile
@@ -95,6 +99,35 @@ except Exception as exc:
 
 
 app = FastAPI(title=APP_TITLE)
+
+
+# configure basic logging to capture startup/shutdown traces
+logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
+logger = logging.getLogger(__name__)
+
+
+# Signal handlers to log termination reasons from the platform (SIGTERM/SIGINT)
+def _handle_termination(signum, frame):
+    logger.info(f"Received termination signal: {signum}. Dumping stack and exiting.")
+    try:
+        traceback.print_stack(frame)
+    except Exception:
+        logger.exception("Error printing stack")
+    # do not call sys.exit here; let FastAPI/uvicorn handle graceful shutdown
+
+
+signal.signal(signal.SIGTERM, _handle_termination)
+signal.signal(signal.SIGINT, _handle_termination)
+
+
+@app.on_event("startup")
+def _log_startup():
+    logger.info("Application startup complete. PID=%s", os.getpid())
+
+
+@app.on_event("shutdown")
+def _log_shutdown():
+    logger.info("Application shutdown event triggered. PID=%s", os.getpid())
 
 app.add_middleware(
     CORSMiddleware,
