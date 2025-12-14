@@ -44,8 +44,8 @@ CONFIDENCE_THRESHOLD = 0.6  # Min confidence to report
 
 
 # SCREW/GLASS/SEAL DETECTION (currently disabled)
-ENABLE_SCREW_DETECTION = False
-ENABLE_GLASS_DETECTION = False
+ENABLE_SCREW_DETECTION = True
+ENABLE_GLASS_DETECTION = True
 ENABLE_SEAL_DETECTION = False
 
 # =============================================================================
@@ -274,13 +274,61 @@ def run_combined_detection():
             
             # === SCREW DEFECT DETECTION ===
             if ENABLE_SCREW_DETECTION:
-                # Add screw detection logic here
-                pass
+                # Label as missing screw if a circular hole exists without a screw in it
+                import numpy as np
+                screw_centers = []
+                for m in screw_masks:
+                    bbox = m.get('bbox')
+                    if bbox:
+                        x_min, y_min, x_max, y_max = bbox
+                        cx = (x_min + x_max) / 2
+                        cy = (y_min + y_max) / 2
+                        screw_centers.append((cx, cy))
+                # For each hole, check if a screw is present nearby
+                threshold = min(w, h) * 0.08  # 8% of image size as matching threshold
+                missing_flagged = False
+                for m in hole_masks:
+                    if missing_flagged:
+                        break
+                    bbox = m.get('bbox')
+                    area = m.get('area_pixels', m.get('area', 0))
+                    if bbox and area > 0:
+                        # Only consider very small, very circular holes (area < 0.2% of image, aspect ratio ~1)
+                        if area < 0.002 * w * h:
+                            x_min, y_min, x_max, y_max = bbox
+                            width = x_max - x_min
+                            height = y_max - y_min
+                            aspect_ratio = width / height if height > 0 else 0
+                            if 0.6 < aspect_ratio < 1.5:
+                                cx = (x_min + x_max) / 2
+                                cy = (y_min + y_max) / 2
+                                # Check if any screw is close to this hole
+                                found = False
+                                for sx, sy in screw_centers:
+                                    dist = np.hypot(sx - cx, sy - cy)
+                                    if dist < threshold:
+                                        found = True
+                                        break
+                                if not found:
+                                    defects.append({
+                                        'component': 'screw',
+                                        'type': 'missing',
+                                        'confidence': 0.85,
+                                        'hole_position': [cx, cy],
+                                        'source': 'hole_without_screw'
+                                    })
+                                    missing_flagged = True
             
             # === GLASS DEFECT DETECTION ===
             if ENABLE_GLASS_DETECTION:
-                # Add glass detection logic here
-                pass
+                broken_glass_masks = components.get('broken_glass', [])
+                if broken_glass_masks:
+                    defects.append({
+                        'component': 'glass',
+                        'type': 'cracked',
+                        'confidence': 0.85,
+                        'source': 'broken_glass_mask'
+                    })
             
             # === SEAL DEFECT DETECTION ===
             if ENABLE_SEAL_DETECTION:

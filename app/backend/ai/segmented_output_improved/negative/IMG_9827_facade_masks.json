@@ -465,6 +465,32 @@
         ],
         "score": 0.258
       }
+    ],
+    "broken_glass": [
+      {
+        "index": 0,
+        "area_pixels": 65258,
+        "coverage_percent": 4.93,
+        "bbox": [
+          683,
+          99,
+          1513,
+          438
+        ],
+        "score": 0.334
+      },
+      {
+        "index": 1,
+        "area_pixels": 292791,
+        "coverage_percent": 22.14,
+        "bbox": [
+          180,
+          125,
+          1220,
+          720
+        ],
+        "score": 0.402
+      }
     ]
   }
 }
