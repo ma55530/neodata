@@ -46,7 +46,8 @@
   z-index: 1;
   background: linear-gradient(90deg, rgba(6, 12, 34, 0.85) 0%, rgba(15, 28, 60, 0.75) 50%, rgba(6, 12, 34, 0.85) 100%);
   backdrop-filter: blur(12px);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  /* stronger subtle shadow below the header for depth */
+  box-shadow: 0 6px 20px rgba(6, 12, 34, 0.45), 0 2px 6px rgba(0, 0, 0, 0.12);
 }
 
 .top-bar::before {
